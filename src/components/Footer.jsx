@@ -10,9 +10,9 @@ export default function Footer() {
           <Logo isLight={true} className="mr-auto" />
 
           <hr className="bg-[#CFCFCF] mb-8 mt-6"></hr>
-          <div className="flex justify-between">
-            <div>
-              <div className="uppercase text-[4.6875rem] text-start font-medium leading-none text-white mb-8">
+          <div className="flex flex-col lg:flex-row justify-between">
+            <div className="mb-14 lg:mb-0">
+              <div className="uppercase text-4xl lg:text-[4.6875rem] text-start font-medium leading-none text-white mb-8">
                 Let's Work<br></br>
                 Together <br></br>
               </div>
@@ -21,8 +21,8 @@ export default function Footer() {
                 product together.
               </p>
             </div>
-            <div className="mt-auto">
-              <ul className="text-end text-[#D9D9D9] underline underline-offset-4">
+            <div className="lg:mt-auto">
+              <ul className="lg:text-end text-[#D9D9D9] underline underline-offset-4">
                 <li className="mb-5">Mafaza.apri@gmail.com</li>
                 <li className="mb-5">LinkedIn</li>
                 <li className="mb-5">View my resume</li>
