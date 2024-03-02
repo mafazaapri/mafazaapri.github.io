@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Homepage = () => {
   return (
     <>
-      <Blob className="absolute z-[-1] hidden lg:block" />
+      <Blob className="absolute z-[-1] hidden lg:block left-1/2 -translate-x-1/2" />
       <div className="container">
         <section className="py-10">
           <Navbar />
