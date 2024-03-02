@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Blob from "../assets/blob.svg?react";
 import Work from "../components/Work";
 import Footer from "../components/Footer";
-import GoToButton from "../components/GoToButton";
 
 const Homepage = () => {
   return (
@@ -40,58 +39,34 @@ const Homepage = () => {
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <div className="text-4xl font-medium mb-5">Norris Mclaughlin</div>
-              <div
-                className={`h-[33.1rem] rounded-lg bg-[url('assets/img/norris-mclaughlin.png')] bg-cover bg-no-repeat bg-center mb-7`}
-              ></div>
-              <div className="flex justify-between">
-                <div className="lg:max-w-xs mr-5">
-                  Redesigning an experience of connecting and searching legal
-                  service
-                </div>
-                <GoToButton />
-              </div>
-            </div>
-            <div>
-              <div className="text-4xl font-medium mb-5">Home + Space</div>
-              <div
-                className={`h-[33.1rem] rounded-lg bg-[url('assets/img/home-space.png')] bg-cover bg-no-repeat bg-center mb-7`}
-              ></div>
-              <div className="flex justify-between">
-                <div className="lg:max-w-xs mr-5">
-                  Enhancing collaboration platform within the architectures
-                  industry
-                </div>
-                <GoToButton />
-              </div>
-            </div>
-            <div>
-              <div className="text-4xl font-medium mb-5">Platforme 6610</div>
-              <div
-                className={`h-[33.1rem] rounded-lg bg-[url('assets/img/platforme-6610.png')] bg-cover bg-no-repeat bg-center mb-7`}
-              ></div>
-              <div className="flex justify-between">
-                <div className="lg:max-w-xs mr-5">
-                  Designing bilingual platform dedicated to wellness community
-                  center
-                </div>
-                <GoToButton />
-              </div>
-            </div>
-            <div>
-              <div className="text-4xl font-medium mb-5">Big Game Golf</div>
-              <div
-                className={`h-[33.1rem] rounded-lg bg-[url('assets/img/big-game-golf.png')] bg-cover bg-no-repeat bg-center mb-7`}
-              ></div>
-              <div className="flex justify-between">
-                <div className="lg:max-w-xs mr-5">
-                  Elevating golf experience in a form of mobile application -
-                  Phase 02
-                </div>
-                <GoToButton />
-              </div>
-            </div>
+            <Work
+              title="Norris Mclaughlin"
+              imgFullName="norris-mclaughlin.png"
+              description="Redesigning an experience of connecting and searching legal
+                  service"
+              goToUrl="/work/norris-mclaughlin"
+            />
+            <Work
+              title="Home + Space"
+              imgFullName="home-space.png"
+              description="Enhancing collaboration platform within the architectures
+              industry"
+              goToUrl="/work/home-space"
+            />
+            <Work
+              title="Platforme 6610"
+              imgFullName="platforme-6610.png"
+              description="Designing bilingual platform dedicated to wellness community
+              center"
+              goToUrl="/work/platforme-6610"
+            />
+            <Work
+              title="Big Game Golf"
+              imgFullName="big-game-golf.png"
+              description="Elevating golf experience in a form of mobile application -
+              Phase 02"
+              goToUrl="/work/big-game-golf"
+            />
           </div>
         </section>
         <section className="py-10">
@@ -102,36 +77,21 @@ const Homepage = () => {
             <div className="bg-slate-300 h-[1px] w-full"></div>
           </div>
           <p className="text-slate-400 mb-10">Brand Identity / Packaging</p>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <div className="text-4xl font-medium mb-5">
-                Big Game Golf Branding
-              </div>
-              <div
-                className={`h-[33.1rem] rounded-lg bg-[url('assets/img/big-game-golf-branding.png')] bg-cover bg-no-repeat bg-center mb-7`}
-              ></div>
-              <div className="flex justify-between">
-                <div className="lg:max-w-xs mr-5">
-                  Redesigning an experience of connecting and searching legal
-                  service
-                </div>
-                <GoToButton />
-              </div>
-            </div>
-            <div>
-              <div className="text-4xl font-medium mb-5">Rojorganic</div>
-              <div
-                className={`h-[33.1rem] rounded-lg bg-[url('assets/img/rojorganic.jpg')] bg-cover bg-no-repeat bg-right-top mb-7`}
-              ></div>
-              <div className="flex justify-between">
-                <div className="lg:max-w-xs mr-5">
-                  Enhancing collaboration platform within the architectures
-                  industry
-                </div>
-                <GoToButton />
-              </div>
-            </div>
+            <Work
+              title="Big Game Golf Branding"
+              imgFullName="big-game-golf-branding.png"
+              description="Redesigning an experience of connecting and searching legal
+              service"
+              goToUrl="/work/big-game-golf-branding"
+            />
+            <Work
+              title="Rojorganic"
+              imgFullName="rojorganic.jpg"
+              description="Enhancing collaboration platform within the architectures
+              industry"
+              goToUrl="/work/rojorganic"
+            />
           </div>
         </section>
       </div>

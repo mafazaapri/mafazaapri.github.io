@@ -27,4 +27,12 @@ export default {
       16: "4rem",
     },
   },
+  safelist: [
+    "bg-[url('/img/norris-mclaughlin.png')]",
+    "bg-[url('/img/home-space.png')]",
+    "bg-[url('/img/platforme-6610.png')]",
+    "bg-[url('/img/big-game-golf.png')]",
+    "bg-[url('/img/big-game-golf-branding.png')]",
+    "bg-[url('/img/rojorganic.jpg')]",
+  ],
 };
