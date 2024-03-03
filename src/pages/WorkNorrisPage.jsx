@@ -3,14 +3,17 @@ import Footer from "../components/Footer";
 import VisitButton from "../components/VisitButton";
 import HeaderTitle from "../components/HeaderTitle";
 import Seperator from "../components/Seperator";
+import DiscoveryPoint from "./page_components/homepage/DiscoveryPoint";
+import ShoppingExperience from "../assets/shopping-experience.svg?react";
+import SearchingForAttorney from "../assets/searching-for-attorney.svg?react";
+import SearchingExperienceMap from "../assets/searching-experience-map.svg?react";
+import StylishHeaderTitle from "../components/StylishHeaderTitle";
+import GoToButton from "../components/GoToButton";
 
 export default function WorkNorrisPage() {
   return (
     <>
-      <div className="h-[45.9375rem] bg-[url('/img/norris-mclaughlin.png')] bg-cover mx-12 rounded-xl mb-16 mt-10">
-        {/* src="/img/norris-mclaughlin.png"
-        className="mx-12 w-100 h-[45.9375rem]" */}
-      </div>
+      <div className="h-[45.9375rem] bg-[url('/img/norris-mclaughlin.png')] bg-cover mx-12 rounded-xl mb-16 mt-10"></div>
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">
@@ -29,10 +32,10 @@ export default function WorkNorrisPage() {
               </p>
             </div>
             <div>
-              <VisitButton />
+              <VisitButton url="https://norrismclaughlin.com/" />
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
             <div>
               <HeaderTitle>Role & Responsibilities</HeaderTitle>
               <p className="max-w-[40.625rem]">
@@ -89,7 +92,7 @@ export default function WorkNorrisPage() {
             <div class="col-span-10">
               <div className="grid grid-cols-2 gap-14 gap-y-10">
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     How you describe your company in a few sentences?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -103,7 +106,7 @@ export default function WorkNorrisPage() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     On NM existing website what doesn’t work well?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -115,7 +118,7 @@ export default function WorkNorrisPage() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     Who individually interest in the outcome of this project?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -126,7 +129,7 @@ export default function WorkNorrisPage() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     What differentiates your company from your competitors?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -155,7 +158,7 @@ export default function WorkNorrisPage() {
             <div class="col-span-10 mb-28">
               <div className="grid grid-cols-2 gap-14 gap-y-10">
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     How you describe your company in a few sentences?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -167,7 +170,7 @@ export default function WorkNorrisPage() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     On NM existing website what doesn’t work well?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -176,7 +179,7 @@ export default function WorkNorrisPage() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     Who individually interest in the outcome of this project?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -186,7 +189,7 @@ export default function WorkNorrisPage() {
                   </p>
                 </div>
                 <div>
-                  <div className="font-medium underline mb-3">
+                  <div className="font-medium underline underline-offset-4 mb-3">
                     What differentiates your company from your competitors?
                   </div>
                   <p className="max-w-[40.625rem]">
@@ -202,41 +205,353 @@ export default function WorkNorrisPage() {
           </div>
           <div>
             <HeaderTitle>Discovery</HeaderTitle>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
               <div className="flex">
-                <div>
-                  <div className="bg-black rounded-full h-2 w-2 mr-3 mt-1"></div>
-                </div>
-                <p>
+                <DiscoveryPoint>
                   Attorneys rely on the website to be their point of sale when
                   advertising their services to the client. It is important for
                   the website to be designed align with the purpose.
-                </p>
+                </DiscoveryPoint>
               </div>
               <div className="flex">
-                <div>
-                  <div className="bg-black rounded-full h-2 w-2 mr-3 mt-1"></div>
-                </div>
-                <p>
+                <DiscoveryPoint>
                   Mobile experience needs to be improve and ensure the
                   accessibility for all content.
-                </p>
+                </DiscoveryPoint>
               </div>
               <div className="flex">
-                <div>
-                  <div className="bg-black rounded-full h-2 w-2 mr-3 mt-1"></div>
-                </div>
-                <p>
+                <DiscoveryPoint>
                   Norris McLaughlin is a big law firm that serve so many
                   different areas and different size of clients therefore their
                   website needs to look more competent, professional and stand
                   out among their competitor.
-                </p>
+                </DiscoveryPoint>
               </div>
             </div>
           </div>
         </section>
         <Seperator />
+        <section>
+          <div className="grid grid-cols-12 mb-14">
+            <div className="col-span-7">
+              <HeaderTitle>Understanding Target Audience</HeaderTitle>
+              <p className="max-w-[40.625rem]">
+                There are reasons attributes to decision-making when people make
+                a purchase, for instance between person who is visiting Amazon
+                website and person who is visiting legal service website.{" "}
+                <br></br>
+                <br></br> People has a reason as to why they need a legal
+                service. For ex : “ I need to apply a permit for my new
+                restaurant” They have a problem to solve or a potential issue
+                they might face. There’s “The need” which is the urge to solve a
+                problem and “The keyword” which in this scenario would be the
+                practice area.<br></br>
+                <br></br> With that being said, understanding about the type of
+                taget audience helped me to form a solid foundation in creating
+                concept experience, organizing information architecture, and
+                ultimately navigating what work best for NM website.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 col-span-5">
+              <div>
+                <ShoppingExperience className="mb-4" />
+                <p className="text-center italic">Shopping experience</p>
+              </div>
+              <div>
+                <SearchingForAttorney className="mb-4" />
+                <p className="text-center italic">Searching for attorney</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <Seperator />
+        <section>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
+            <div>
+              <HeaderTitle>Key Takeaway</HeaderTitle>
+              <p className="max-w-[40.625rem]">
+                After analyzing the discovery phase and synthesize the current
+                website I came up with three prioritized issue that I discovered
+                and plays a significant role in the overall experience ; Search
+                feature, navigation, and attorney’s portfolio.
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
+            <div>
+              <div className="font-medium mb-3 uppercase">
+                Primary Searching Feature
+              </div>
+              <p className="max-w-[40.625rem]">
+                When user visited NM website the primary task is to find
+                attorney who serve the legal service they needed and whom
+                practice on the location the are looking for. The current search
+                feature on the website is barely noticeable and it doesn’t
+                maximize its feature.
+              </p>
+            </div>
+            <div>
+              <div className="font-medium mb-3 uppercase">
+                Poor User Journey
+              </div>
+              <p className="max-w-[40.625rem]">
+                There are three primary users on NM website ; potential clients,
+                lawyer and internal members. Each user has various different
+                task to accomplish on the website. The current website shows a
+                very complicated user journey, each user has no end to end
+                direction to accomplish the task they wanted to do.
+              </p>
+            </div>
+            <div>
+              <div className="font-medium mb-3 uppercase">
+                Lack of Information Architecture
+              </div>
+              <p className="max-w-[40.625rem]">
+                NM website very rich with content such as lawyers profile,
+                article, blog, events and podcast there are hundreds of post
+                written by attorneys. All of these information are accessible
+                for clients to read but unfortunately, the current website has
+                no structured on information hierarchy and it caused all of the
+                content has poor accessibility and some of them are hidden.
+              </p>
+            </div>
+          </div>
+        </section>
+        <Seperator />
+        <section>
+          <HeaderTitle>#1 Searching Experience</HeaderTitle>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-16">
+            <div>
+              <p className="max-w-[40.625rem]">
+                How do user find an attorney and information related problem
+                they have? to answer this question I build a single scenario for
+                user to visit the website and find an attorney. The concept was
+                to create a systematic information where user will be navigated
+                to a single-journey and have the ability to explore with content
+                related to the practice area. I create user-flow to illustrating
+                how user navigate on search feature.
+              </p>
+            </div>
+            <div>
+              <div className="bg-black h-1 mb-3"></div>
+              <p className="text-3xl font-medium max-w-[45rem]">
+                Think of it like a Google search, in a few keywords you get
+                results to the right attorney, articles, news, and related
+                events.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+            <SearchingExperienceMap />
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+            <img
+              src="/img/norris-search-result.png"
+              className="max-h-[40rem] rounded-lg"
+            />
+          </div>
+        </section>
+        <Seperator />
+        <section>
+          <HeaderTitle>#2 Attorney's Profile</HeaderTitle>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-16">
+            <div>
+              <p className="max-w-[40.625rem]">
+                During the initial user research attorneys explained the role of
+                the website to become a tool for them to showcase their profile,
+                background, expertise, and content related to their experience.
+                With the current design there are many content hidden on the
+                website and has poor accessibility. These content plays
+                significant role to be a touch-point for attorney to sale their
+                service.<br></br>
+                <br></br> Based on the discovery phase below is a map of needs
+                and wants from attorney :
+              </p>
+            </div>
+            <div>
+              <div className="bg-black h-1 mb-3"></div>
+              <p className="text-3xl font-medium max-w-[45rem]">
+                The challenge is how to provide all information related to David
+                without requiring users to navigate between multiple pages.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 mb-20 grid grid-cols-10 gap-x-14">
+            <div className="col-span-2 flex justify-center items-center">
+              <div className="bg-[#F8F8F8] py-6 px-6 flex flex-col justify-center items-center rounded-md">
+                <div
+                  className="w-[6.5625rem] h-[6.5625rem] bg-[#E3E5E8] rounded-full relative 
+                after:rounded-full after:bg-[url('/img/danielle-defilippis.png')] after:bg-cover after:bg-center after:content-[''] 
+                after:absolute after:w-full after:h-full after:top-1/2 after:left-1/2 after:transform after:-translate-x-1/2 
+                after:-translate-y-1/2 mb-4"
+                />
+                <p className="font-medium text-center text-sm">
+                  Daniel DeFilippis is an attorney specialized in Divorce.
+                </p>
+              </div>
+            </div>
+            <div className="col-span-4 flex flex-col justify-center items-center">
+              <div className="bg-[#F8F8F8] py-6 px-8 rounded-md mb-5 text-center w-full">
+                I want potential client to know my achievement, profile, and
+                background.
+              </div>
+              <div className="bg-[#F8F8F8] py-6 px-8 rounded-md mb-5 text-center w-full">
+                I want client to know my service area
+              </div>
+              <div className="bg-[#F8F8F8] py-6 px-8 rounded-md text-center w-full">
+                I want potential client to know that I have helped many
+                immigration case
+              </div>
+            </div>
+            <div className="col-span-4 flex flex-col justify-center items-center">
+              <div className="bg-[#F8F8F8] py-6 px-8 rounded-md mb-5 text-center w-full">
+                I want client able to read my article, post, and updates on the
+                news regarding Immigration.
+              </div>
+              <div className="bg-[#F8F8F8] py-6 px-8 rounded-md mb-5 text-center w-full">
+                I want client able to contact me
+              </div>
+              <div className="bg-[#F8F8F8] py-6 px-8 rounded-md text-center w-full">
+                I want client to know that I served in NY and NJ
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
+            <div>
+              <HeaderTitle>One Stop Shop Experience</HeaderTitle>
+              <p className="max-w-[40.625rem]">
+                After understanding their pain points and considering attorney’s
+                needs and wants I created a designated space for attorney to
+                showcase their portfolio and all content related to that
+                attorney in one place. This allows users to access all related
+                information without the need to jump between pages.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+            <img
+              src="/img/norris-search-result.png"
+              className="max-h-[40rem] rounded-lg"
+            />
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-10">
+            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+              <img src="/img/norris-homepage-1.png" className="rounded-t-lg" />
+            </div>
+            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+              <img src="/img/norris-homepage-2.png" className="rounded-t-lg" />
+            </div>
+          </div>
+        </section>
+        <Seperator />
+        <section>
+          <HeaderTitle>#3 Simplify Navigation</HeaderTitle>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-16">
+            <div>
+              <p className="max-w-[40.625rem]">
+                One of the main pain points identified was the complex
+                navigation bar. There are too many focus point presented on the
+                current navigation system. Having information is great but when
+                it’s presented all at once it can derailed user from the primary
+                task.
+              </p>
+            </div>
+            <div>
+              <div className="bg-black h-1 mb-3"></div>
+              <p className="text-3xl font-medium max-w-[45rem]">
+                The time it takes to make a decision increases with the number
+                and complexity of choices available -Hick’s law
+              </p>
+            </div>
+          </div>
+          <img src="/img/norris-header.png" className="mb-16"></img>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-10">
+            <p className="max-w-[40.625rem]">
+              After reorganizing the entire links on the current website and how
+              everything placed I’m able to eliminate some of the link on the
+              primary navigation. The goal is to simplify the navigation to only
+              what’s needed for user to access so that user can focus on the
+              task to find an attorney and service they need.
+            </p>
+            <p className="max-w-[45rem]">
+              User will be presented with few helpful links to accomodate in
+              completing the task and a secondary navigation added for links
+              with low-priority.
+            </p>
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 grid grid-cols-12 gap-10 justify-items-center">
+            <div className="col-span-12 lg:col-span-9">
+              <img
+                src="/img/norris-services-catalog-page.png"
+                className="rounded-t-lg max-h-[25rem]"
+              />
+            </div>
+
+            <div className="col-span-12 lg:col-span-3">
+              <img
+                src="/img/norris-social-media.png"
+                className="rounded-t-lg max-h-[17rem]"
+              />
+            </div>
+          </div>
+        </section>
+        <Seperator />
+        <section className="mb-20">
+          <HeaderTitle className="mb-6">Cohesive Experience</HeaderTitle>
+          <div className="flex justify-between mb-16 flex-col lg:flex-row gap-10">
+            <p className="max-w-[40.625rem]">
+              To ensure cohesive experience I designed the rest of the pages to
+              align with design system and reorganizing the layout while
+              maintaining readability and accessibility. Below screenshot for
+              blog page, article, news, events, and presentation.
+            </p>
+            <div>
+              <VisitButton url="https://norrismclaughlin.com/" />
+            </div>
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+            <img
+              src="/img/norris-asset-protection-page.png"
+              className="max-h-[40rem] rounded-lg"
+            />
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+            <img
+              src="/img/norris-blog-page.png"
+              className="max-h-[40rem] rounded-lg"
+            />
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+            <img
+              src="/img/norris-services-page.png"
+              className="max-h-[40rem] rounded-lg"
+            />
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+              <img src="/img/norris-news-page-1.png" className="rounded-t-lg" />
+            </div>
+            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+              <img src="/img/norris-news-page-2.png" className="rounded-t-lg" />
+            </div>
+          </div>
+        </section>
+        <StylishHeaderTitle className="mb-12">Read Next</StylishHeaderTitle>
+        <div className="h-[17.5rem] bg-[url('/img/home-space.png')] bg-cover rounded-lg mb-10"></div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 mb-16 gap-16">
+          <div>
+            <div className="font-medium underline underline-offset-4 text-3xl mb-4">
+              Home + Space
+            </div>
+            <div className="flex">
+              <p className="max-w-[40.625rem] mr-8">
+                I designed interface for collaboration platform to help
+                architectures get their project done.
+              </p>
+              <GoToButton goToUrl="/work/home-space" />
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />;
     </>

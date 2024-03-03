@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Blob from "../assets/blob.svg?react";
 import Work from "../components/Work";
 import Footer from "../components/Footer";
+import StylishHeaderTitle from "../components/StylishHeaderTitle";
 
 const Homepage = () => {
   return (
@@ -28,12 +29,9 @@ const Homepage = () => {
           </div>
         </section>
         <section className="py-10">
-          <div className="flex items-center mb-6">
-            <div className="text-white bg-black rounded-3xl px-4 py-2 font-matter font-medium inline-block mr-5">
-              <div className="uppercase w-max">Selected Works</div>
-            </div>
-            <div className="bg-slate-300 h-[1px] w-full"></div>
-          </div>
+          <StylishHeaderTitle className="mb-6">
+            Selected Works
+          </StylishHeaderTitle>
           <p className="text-slate-400 mb-10">
             Website / Mobile app / Sotware tool
           </p>
@@ -70,12 +68,9 @@ const Homepage = () => {
           </div>
         </section>
         <section className="py-10">
-          <div className="flex items-center mb-6">
-            <div className="text-white bg-black rounded-3xl px-4 py-2 font-matter font-medium inline-block mr-5">
-              <div className="uppercase w-max">Selected Works</div>
-            </div>
-            <div className="bg-slate-300 h-[1px] w-full"></div>
-          </div>
+          <StylishHeaderTitle className="mb-6">
+            Selected Works
+          </StylishHeaderTitle>
           <p className="text-slate-400 mb-10">Brand Identity / Packaging</p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work

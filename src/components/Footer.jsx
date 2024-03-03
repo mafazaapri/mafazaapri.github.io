@@ -23,8 +23,19 @@ export default function Footer() {
             </div>
             <div className="lg:mt-auto">
               <ul className="lg:text-end text-[#D9D9D9] underline underline-offset-4">
-                <li className="mb-5">Mafaza.apri@gmail.com</li>
-                <li className="mb-5">LinkedIn</li>
+                <li className="mb-5">
+                  <a href="mailto:mafaza.apri@gmail.com" target="_blank">
+                    Mafaza.apri@gmail.com
+                  </a>
+                </li>
+                <li className="mb-5">
+                  <a
+                    href="https://www.linkedin.com/in/mafazaapri/"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
                 <li className="mb-5">View my resume</li>
               </ul>
             </div>

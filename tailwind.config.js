@@ -18,6 +18,7 @@ export default {
         xl: "7rem",
         "2xl": "9rem",
       },
+      center: true,
     },
     backgroundSize: {
       auto: "auto",
