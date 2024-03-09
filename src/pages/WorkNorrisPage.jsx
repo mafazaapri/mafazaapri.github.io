@@ -536,22 +536,24 @@ export default function WorkNorrisPage() {
             </div>
           </div>
         </section>
-        <StylishHeaderTitle className="mb-12">Read Next</StylishHeaderTitle>
-        <div className="h-[17.5rem] bg-[url('/img/home-space.png')] bg-cover rounded-lg mb-10"></div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 mb-16 gap-16">
-          <div>
-            <div className="font-medium underline underline-offset-4 text-3xl mb-4">
-              Home + Space
-            </div>
-            <div className="flex">
-              <p className="max-w-[40.625rem] mr-8">
-                I designed interface for collaboration platform to help
-                architectures get their project done.
-              </p>
-              <GoToButton goToUrl="/work/home-space" />
+        <section>
+          <StylishHeaderTitle className="mb-12">Read Next</StylishHeaderTitle>
+          <div className="h-[17.5rem] bg-[url('/img/home-space.png')] bg-cover rounded-lg mb-10"></div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 mb-16 gap-16">
+            <div>
+              <div className="font-medium underline underline-offset-4 text-3xl mb-4">
+                Home + Space
+              </div>
+              <div className="flex">
+                <p className="max-w-[40.625rem] mr-8">
+                  I designed interface for collaboration platform to help
+                  architectures get their project done.
+                </p>
+                <GoToButton goToUrl="/work/home-space" />
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
       <Footer />;
     </>
