@@ -7,10 +7,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-regular-svg-icons";
 import HeaderImage from "../components/HeaderImage";
 import ReadNext from "../components/ReadNext";
+import PageMetadata from "../components/PageMetadata";
 
 export default function WorkPlatformePage() {
   return (
     <>
+      <PageMetadata
+        title="Platforme 6610"
+        desc="Designing bilingual platform dedicated to wellness community center"
+      />
       <HeaderImage imgName="platforme-6610.png" />
       <div className="container">
         <section className="mb-10">

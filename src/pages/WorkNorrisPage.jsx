@@ -9,10 +9,15 @@ import SearchingForAttorney from "../assets/searching-for-attorney.svg?react";
 import SearchingExperienceMap from "../assets/searching-experience-map.svg?react";
 import HeaderImage from "../components/HeaderImage";
 import ReadNext from "../components/ReadNext";
+import PageMetadata from "../components/PageMetadata";
 
 export default function WorkNorrisPage() {
   return (
     <>
+      <PageMetadata
+        title="Norris Mclaughlin"
+        desc="Redesigning an experience of connecting and searching legal service"
+      />
       <HeaderImage imgName="norris-mclaughlin.png" />
       <div className="container">
         <section className="mb-10">

@@ -11,6 +11,7 @@ import IdentificationDiagram from "../assets/home-space-identification-diagram.s
 import SimplifiedTaskFlowDiagram from "../assets/home-space-task-flow-diagram.svg?react";
 import PainPoint from "./page_components/homespace/PainPoint";
 import ReadNext from "../components/ReadNext";
+import PageMetadata from "../components/PageMetadata";
 
 function getMobileImagePath(num) {
   return `/img/home-space-mobile-${num}.png`;
@@ -19,6 +20,10 @@ function getMobileImagePath(num) {
 export default function WorkHomeSpace() {
   return (
     <>
+      <PageMetadata
+        title="Home + Space"
+        desc="Enhancing collaboration platform within the architectures industry"
+      />
       <HeaderImage imgName="home-space.png" className="lg:object-[50%_20%]" />
       <div className="container">
         <section className="mb-10">

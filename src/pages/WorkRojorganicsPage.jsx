@@ -5,10 +5,15 @@ import Seperator from "../components/Seperator";
 import RojorganicsLogo from "../assets/rojorganics-logo.svg?react";
 import HeaderImage from "../components/HeaderImage";
 import ReadNext from "../components/ReadNext";
+import PageMetadata from "../components/PageMetadata";
 
 export default function WorkRojorganicsPage() {
   return (
     <>
+      <PageMetadata
+        title="Rojorganic"
+        desc="Enhancing collaboration platform within the architectures industry"
+      />
       <HeaderImage imgName="rojorganics-cover.jpg" />
       <div className="container">
         <section className="mb-10">
