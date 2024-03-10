@@ -9,7 +9,7 @@ import WorkRojorganicsPage from "./pages/WorkRojorganicsPage.jsx";
 import WorkHomeSpace from "./pages/WorkHomeSpace.jsx";
 import WorkBigGameGolf from "./pages/WorkBigGameGolf.jsx";
 
-const routes = [
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
@@ -34,11 +34,7 @@ const routes = [
     path: "/work/big-game-golf",
     element: <WorkBigGameGolf />,
   },
-];
-
-const router = createBrowserRouter(routes, {
-  basename: "/",
-});
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
