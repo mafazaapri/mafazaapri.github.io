@@ -5,9 +5,8 @@ import HeaderTitle from "../components/HeaderTitle";
 import Seperator from "../components/Seperator";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-regular-svg-icons";
-import StylishHeaderTitle from "../components/StylishHeaderTitle";
-import GoToButton from "../components/GoToButton";
 import HeaderImage from "../components/HeaderImage";
+import ReadNext from "../components/ReadNext";
 
 export default function WorkPlatformePage() {
   return (
@@ -352,22 +351,13 @@ export default function WorkPlatformePage() {
           </div>
         </section>
         <section>
-          <StylishHeaderTitle className="mb-12">Read Next</StylishHeaderTitle>
-          <div className="h-[17.5rem] bg-[url('/img/big-game-golf.png')] bg-cover bg-center rounded-lg mb-10"></div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 mb-16 gap-16">
-            <div>
-              <div className="font-medium underline underline-offset-4 text-3xl mb-4">
-                Big Game Golf
-              </div>
-              <div className="flex">
-                <p className="max-w-[40.625rem] mr-8">
-                  Elevating golf experience in a form of mobile application -
-                  Phase 02
-                </p>
-                <GoToButton goToUrl="/work/big-game-golf" />
-              </div>
-            </div>
-          </div>
+          <ReadNext
+            imgName="big-game-golf.png"
+            title="Big Game Golf"
+            desc="Elevating golf experience in a form of mobile application -
+            Phase 02"
+            url="/work/big-game-golf"
+          />
         </section>
       </div>
       <Footer />;

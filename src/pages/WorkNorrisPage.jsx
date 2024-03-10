@@ -7,9 +7,8 @@ import DiscoveryPoint from "./page_components/homepage/DiscoveryPoint";
 import ShoppingExperience from "../assets/shopping-experience.svg?react";
 import SearchingForAttorney from "../assets/searching-for-attorney.svg?react";
 import SearchingExperienceMap from "../assets/searching-experience-map.svg?react";
-import StylishHeaderTitle from "../components/StylishHeaderTitle";
-import GoToButton from "../components/GoToButton";
 import HeaderImage from "../components/HeaderImage";
+import ReadNext from "../components/ReadNext";
 
 export default function WorkNorrisPage() {
   return (
@@ -538,22 +537,14 @@ export default function WorkNorrisPage() {
           </div>
         </section>
         <section>
-          <StylishHeaderTitle className="mb-12">Read Next</StylishHeaderTitle>
-          <div className="h-[17.5rem] bg-[url('/img/home-space.png')] bg-cover rounded-lg mb-10"></div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 mb-16 gap-16">
-            <div>
-              <div className="font-medium underline underline-offset-4 text-3xl mb-4">
-                Home + Space
-              </div>
-              <div className="flex">
-                <p className="max-w-[40.625rem] mr-8">
-                  I designed interface for collaboration platform to help
-                  architectures get their project done.
-                </p>
-                <GoToButton goToUrl="/work/home-space" />
-              </div>
-            </div>
-          </div>
+          <ReadNext
+            imgName="home-space.png"
+            title="Home + Space"
+            desc="I designed interface for collaboration platform to help
+            architectures get their project done."
+            url="/work/home-space"
+            imgClassName="lg:object-[50%_12%]"
+          />
         </section>
       </div>
       <Footer />;
