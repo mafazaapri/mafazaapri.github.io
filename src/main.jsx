@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createHashRouter,
+  RouterProvider,
+} from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import WorkNorrisPage from "./pages/WorkNorrisPage.jsx";
@@ -9,7 +13,7 @@ import WorkRojorganicsPage from "./pages/WorkRojorganicsPage.jsx";
 import WorkHomeSpace from "./pages/WorkHomeSpace.jsx";
 import WorkBigGameGolf from "./pages/WorkBigGameGolf.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
