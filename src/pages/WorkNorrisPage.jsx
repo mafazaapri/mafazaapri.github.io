@@ -9,11 +9,12 @@ import SearchingForAttorney from "../assets/searching-for-attorney.svg?react";
 import SearchingExperienceMap from "../assets/searching-experience-map.svg?react";
 import StylishHeaderTitle from "../components/StylishHeaderTitle";
 import GoToButton from "../components/GoToButton";
+import HeaderImage from "../components/HeaderImage";
 
 export default function WorkNorrisPage() {
   return (
     <>
-      <div className="h-[45.9375rem] bg-[url('/img/norris-mclaughlin.png')] bg-cover mx-12 rounded-xl mb-16 mt-10"></div>
+      <HeaderImage imgName="norris-mclaughlin.png" />
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">

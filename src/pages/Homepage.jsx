@@ -39,28 +39,28 @@ const Homepage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
               title="Norris Mclaughlin"
-              imgFullName="norris-mclaughlin.png"
+              imgName="norris-mclaughlin.png"
               description="Redesigning an experience of connecting and searching legal
                   service"
               goToUrl="/work/norris-mclaughlin"
             />
             <Work
               title="Home + Space"
-              imgFullName="home-space.png"
+              imgName="home-space.png"
               description="Enhancing collaboration platform within the architectures
               industry"
               goToUrl="/work/home-space"
             />
             <Work
               title="Platforme 6610"
-              imgFullName="platforme-6610.png"
+              imgName="platforme-6610.png"
               description="Designing bilingual platform dedicated to wellness community
               center"
               goToUrl="/work/platforme-6610"
             />
             <Work
               title="Big Game Golf"
-              imgFullName="big-game-golf.png"
+              imgName="big-game-golf.png"
               description="Elevating golf experience in a form of mobile application -
               Phase 02"
               goToUrl="/work/big-game-golf"
@@ -75,17 +75,17 @@ const Homepage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
               title="Big Game Golf Branding"
-              imgFullName="big-game-golf-branding.png"
+              imgName="big-game-golf-branding.png"
               description="Redesigning an experience of connecting and searching legal
               service"
               goToUrl="/work/big-game-golf-branding"
             />
             <Work
               title="Rojorganic"
-              imgFullName="rojorganic.jpg"
+              imgName="rojorganic.jpg"
               description="Enhancing collaboration platform within the architectures
               industry"
-              goToUrl="/work/rojorganic"
+              goToUrl="/work/rojorganics"
             />
           </div>
         </section>

@@ -7,11 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-regular-svg-icons";
 import StylishHeaderTitle from "../components/StylishHeaderTitle";
 import GoToButton from "../components/GoToButton";
+import HeaderImage from "../components/HeaderImage";
 
 export default function WorkPlatformePage() {
   return (
     <>
-      <div className="h-[45.9375rem] bg-[url('/img/platforme-6610.png')] bg-cover mx-12 rounded-xl mb-16 mt-10"></div>
+      <HeaderImage imgName="platforme-6610.png" />
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">
@@ -328,7 +329,7 @@ export default function WorkPlatformePage() {
           </div>
         </section>
         <Seperator />
-        <section>
+        <section className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
             <div>
               <HeaderTitle>Mobile Responsive</HeaderTitle>
@@ -343,7 +344,7 @@ export default function WorkPlatformePage() {
             </div>
           </div>
           <div className="bg-[url('/img/platforme-phone.png')] h-[42rem] bg-cover bg-center mb-14" />
-          <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center mb-20">
+          <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center">
             <img
               src="/img/platforme-mockup.png"
               className="rounded-lg max-h-[40rem]"
