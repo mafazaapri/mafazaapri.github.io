@@ -37,7 +37,7 @@ const routes = [
 ];
 
 const router = createBrowserRouter(routes, {
-  basename: "/mafazaapri.github.io",
+  basename: "/",
 });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
