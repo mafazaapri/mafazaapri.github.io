@@ -10,39 +10,44 @@ import WorkHomeSpace from "./pages/WorkHomeSpace.jsx";
 import WorkBigGameGolf from "./pages/WorkBigGameGolf.jsx";
 import WorkBigGameGolfBranding from "./pages/WorkBigGameGolfBranding.jsx";
 import NotFoundPage from "./404.jsx";
+import Homepage from "./pages/Homepage.jsx";
 
 const router = createHashRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path: "/work/norris-mclaughlin",
-    element: <WorkNorrisPage />,
-  },
-  {
-    path: "/work/home-space",
-    element: <WorkHomeSpace />,
-  },
-  {
-    path: "/work/platforme-6610",
-    element: <WorkPlatformePage />,
-  },
-  {
-    path: "/work/rojorganics",
-    element: <WorkRojorganicsPage />,
-  },
-  {
-    path: "/work/big-game-golf",
-    element: <WorkBigGameGolf />,
-  },
-  {
-    path: "/work/big-game-golf-branding",
-    element: <WorkBigGameGolfBranding />,
-  },
-  {
-    path: "*",
-    element: <NotFoundPage />,
+    errorElement: <NotFoundPage />,
+    children: [
+      { index: true, element: <Homepage /> },
+      {
+        path: "/work/norris-mclaughlin",
+        element: <WorkNorrisPage />,
+      },
+      {
+        path: "/work/home-space",
+        element: <WorkHomeSpace />,
+      },
+      {
+        path: "/work/platforme-6610",
+        element: <WorkPlatformePage />,
+      },
+      {
+        path: "/work/rojorganics",
+        element: <WorkRojorganicsPage />,
+      },
+      {
+        path: "/work/big-game-golf",
+        element: <WorkBigGameGolf />,
+      },
+      {
+        path: "/work/big-game-golf-branding",
+        element: <WorkBigGameGolfBranding />,
+      },
+      {
+        path: "*",
+        element: <NotFoundPage />,
+      },
+    ],
   },
 ]);
 

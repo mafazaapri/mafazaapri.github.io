@@ -1,8 +1,14 @@
+import { ScrollRestoration } from "react-router-dom";
 import "./App.css";
-import Homepage from "./pages/Homepage";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  return <Homepage />;
+  return (
+    <>
+      <ScrollRestoration />
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
