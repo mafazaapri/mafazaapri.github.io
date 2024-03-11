@@ -4,10 +4,15 @@ import Blob from "../assets/blob.svg?react";
 import Work from "../components/Work";
 import Footer from "../components/Footer";
 import StylishHeaderTitle from "../components/StylishHeaderTitle";
+import PageMetadata from "../components/PageMetadata";
 
 const Homepage = () => {
   return (
     <>
+      <PageMetadata
+        title="Mafaza Apri"
+        desc="UI/UX Designer based in Seattle"
+      />
       <Blob className="absolute z-[-1] hidden lg:block left-1/2 -translate-x-1/2" />
       <div className="container">
         <section className="py-10">
