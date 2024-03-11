@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  createHashRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import WorkNorrisPage from "./pages/WorkNorrisPage.jsx";
@@ -12,6 +8,8 @@ import WorkPlatformePage from "./pages/WorkPlatformePage.jsx";
 import WorkRojorganicsPage from "./pages/WorkRojorganicsPage.jsx";
 import WorkHomeSpace from "./pages/WorkHomeSpace.jsx";
 import WorkBigGameGolf from "./pages/WorkBigGameGolf.jsx";
+import WorkBigGameGolfBranding from "./pages/WorkBigGameGolfBranding.jsx";
+import NotFoundPage from "./404.jsx";
 
 const router = createHashRouter([
   {
@@ -37,6 +35,14 @@ const router = createHashRouter([
   {
     path: "/work/big-game-golf",
     element: <WorkBigGameGolf />,
+  },
+  {
+    path: "/work/big-game-golf-branding",
+    element: <WorkBigGameGolfBranding />,
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
   },
 ]);
 
