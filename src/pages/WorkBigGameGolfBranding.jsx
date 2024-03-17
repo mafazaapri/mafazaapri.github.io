@@ -4,6 +4,7 @@ import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/Footer";
 import HeaderTitle from "../components/HeaderTitle";
 import Seperator from "../components/Seperator";
+import ReadNext from "../components/ReadNext";
 
 export default function WorkBigGameGolfBranding() {
   return (
@@ -64,8 +65,148 @@ export default function WorkBigGameGolfBranding() {
               </div>
             </div>
           </div>
+          <div className="bg-[#f0f0f0] px-14 py-16 flex justify-center items-center mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <img
+                src="/img/bggb-navigating-direction-1.jpg"
+                className="rounded-lg"
+              />
+              <div className="flex flex-col items-end">
+                <img
+                  src="/img/bggb-prev-logo.png"
+                  className="max-w-[15rem] mb-4 "
+                />
+                <p className="uppercase font-medium text-2xl">Previous Logo</p>
+              </div>
+              <img
+                src="/img/bggb-navigating-direction-2.jpg"
+                className="rounded-lg"
+              />
+              <img
+                src="/img/bggb-navigating-direction-3.jpg"
+                className="rounded-lg"
+              />
+            </div>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
+            <div>
+              <HeaderTitle>Navigating Direction</HeaderTitle>
+
+              <p className="max-w-[40.625rem]">
+                The next step is I start to sketch and put my ideas together, I
+                ideate the new concept has to represent sports industry without
+                being iconic, look playful, and simple. I wanted to design
+                something simple yet memorable for users to notice. My decision
+                was to use elements that represent sports such as circle and
+                flag shape. Below was my first draft with different concepts
+                and i presented it to my internal team which later on we decided
+                to focus on simplier version.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#f0f0f0] px-36 py-16 flex justify-center items-center mb-16">
+            <img
+              src="/img/bggb-navigating-direction-4.png"
+              className="rounded-lg"
+            />
+          </div>
         </section>
         <Seperator />
+        <section>
+          <div>
+            <HeaderTitle>Module 01</HeaderTitle>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 lg:justify-items-end mb-16">
+              <div>
+                <p className="max-w-[40.625rem]">
+                  After curated few concept me and my team ready to present our
+                  first draft to stakeholders. While we do receive positive
+                  feedback unfortunately they are not hundred percent certain on
+                  the concept we presented. We took note on important things and
+                  aspect to consider and decided to come back with second draft
+                  of concept.
+                </p>
+              </div>
+              <div>
+                <img
+                  src="/img/bggb-module-1.png"
+                  className="max-h-[15.625rem]"
+                />
+              </div>
+            </div>
+          </div>
+          <div>
+            <HeaderTitle>First Iteration</HeaderTitle>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
+              <div>
+                <p className="max-w-[40.625rem]">
+                  After receiving feedback I start working on the first
+                  iteration, I get to understand more about the direction and
+                  theme they like to approach. I focus on creating concept with
+                  speed or motion symbol which represent sports in general and
+                  keep the modern look in it. Below are some trial that I
+                  illustrate and also presenting the concept in different color
+                  shade of green.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#f0f0f0] px-14 py-16 flex justify-center items-center mb-16">
+            <img
+              src="/img/bggb-first-iteration-1.png"
+              className="max-w-[40.625rem] rounded-lg"
+            />
+          </div>
+          <div className="bg-[#f0f0f0] px-28 py-16 flex justify-center items-center">
+            <img src="/img/bggb-first-iteration-2.png" className="rounded-lg" />
+          </div>
+        </section>
+        <Seperator />
+
+        <section>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
+            <div>
+              <HeaderTitle>Final Look</HeaderTitle>
+
+              <p className="max-w-[40.625rem]">
+                After curated few concept me and my team ready to present our
+                first draft to stakeholders. While we do receive positive
+                feedback unfortunately they are not hundred percent certain on
+                the concept we presented. We took note on important things and
+                aspect to consider and decided to come back with second draft of
+                concept.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#f0f0f0] px-14 py-16 flex justify-center items-center mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <img
+                src="/img/bggb-final-look-1.png"
+                className="rounded-lg w-[20rem] h-[18rem]"
+              />
+              <img
+                src="/img/bggb-final-look-2.png"
+                className="rounded-lg w-[20rem] h-[18rem]"
+              />
+            </div>
+          </div>
+          <div className="bg-[#f0f0f0] px-28 py-16 flex justify-center items-center mb-16">
+            <img src="/img/bggb-final-look-3.png" className="rounded-lg " />
+          </div>
+          <div className="bg-[#f0f0f0] px-14 py-16 flex justify-center items-center mb-16">
+            <img src="/img/bggb-final-look-4.png" className="rounded-lg " />
+          </div>
+        </section>
+        <section>
+          <ReadNext
+            imgName="home-space.png"
+            title="Home + Space"
+            desc="I designed interface for collaboration platform to help
+            architectures get their project done."
+            url="/work/home-space"
+            imgClassName="lg:object-[50%_12%]"
+          />
+        </section>
       </div>
       <Footer />;
     </>
