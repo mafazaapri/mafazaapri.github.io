@@ -9,6 +9,7 @@ export default {
   theme: {
     fontFamily: {
       matter: ["Matter", "system-ui"],
+      neuton: ["Neuton", "system-ui"],
     },
     container: {
       padding: {
@@ -27,6 +28,12 @@ export default {
       "100%": "200%",
       16: "4rem",
     },
+
+    extend: {
+      backgroundImage: {
+        'home-bg': "url('/img/background.png')",
+      }
+    }
   },
   safelist: [
     "bg-[url('/img/norris-mclaughlin.png')]",

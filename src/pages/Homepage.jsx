@@ -5,31 +5,45 @@ import Work from "../components/Work";
 import Footer from "../components/Footer";
 import StylishHeaderTitle from "../components/StylishHeaderTitle";
 import PageMetadata from "../components/PageMetadata";
+import { useOutletContext } from "react-router-dom";
 
 const Homepage = () => {
+  const [displayBlackScreen, hideBlackScreen] = useOutletContext();
+
   return (
-    <>
+    <div className="bg-home-bg bg-repeat">
       <PageMetadata
         title="Mafaza Apri"
         desc="UI/UX Designer based in Seattle"
       />
-      <Blob className="absolute z-[-1] hidden lg:block left-1/2 -translate-x-1/2" />
+      <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
       <div className="container">
         <section className="py-10">
-          <Navbar />
-          <div className="uppercase text-[2.5rem] lg:text-[7.5rem] text-start font-medium leading-none	mr mt-16 lg:mt-24">
-            I create<br></br>
-            visual that <br></br>
-            makes sense
+          <Navbar
+            displayBlackScreen={displayBlackScreen}
+            hideBlackScreen={hideBlackScreen}
+          />
+          <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-24">
+            <span className="font-medium">
+              I create
+              <br />
+              visuals that
+            </span>
+            <br />
+            <span className="font-neuton italic">make sense</span>
+            <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
           </div>
           <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
-            <div className="text-start mb-5 lg:mb-0 lg:max-w-96">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </div>
-            <div className="flex items-start lg:max-w-52 text-start">
-              <div className="w-[16px] h-[5px] bg-black mr-3 my-2"></div>
-              <div>UI/UX Designer based in Seattle</div>
+            <div className="text-start mb-5 lg:mb-0 lg:max-w-[28rem]">
+              Hi I’m Mafaza{" "}
+              <img src="/img/hand.png" className="w-6 inline-block" /> , with my
+              experience I specialize in crafting seamless digital experiences
+              for{" "}
+              <span className="font-neuton italic">
+                websites, apps, & brands.
+              </span>
+              <br />I believe that every product is unique, and so is the design
+              process.
             </div>
           </div>
         </section>
@@ -96,7 +110,7 @@ const Homepage = () => {
         </section>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
