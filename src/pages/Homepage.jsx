@@ -19,11 +19,7 @@ const Homepage = () => {
       <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
       <div className="container">
         <section className="py-10">
-          <Navbar
-            displayBlackScreen={displayBlackScreen}
-            hideBlackScreen={hideBlackScreen}
-          />
-          <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-24">
+          <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
               I create
               <br />

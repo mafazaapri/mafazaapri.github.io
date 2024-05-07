@@ -3,7 +3,11 @@ import Logo from "./Logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-export default function Navbar({ displayBlackScreen, hideBlackScreen }) {
+export default function Navbar({
+  displayBlackScreen,
+  hideBlackScreen,
+  isNavbarBg,
+}) {
   const [displayPopup, setDisplayPopup] = useState(false);
   const [displayNavButton, setDisplayNavButton] = useState(true);
 
@@ -21,9 +25,13 @@ export default function Navbar({ displayBlackScreen, hideBlackScreen }) {
 
   return (
     <>
-      <div className="flex justify-between items-center">
+      <div
+        className={`flex justify-between items-center ${
+          isNavbarBg ? "py-2" : "pt-12"
+        }`}
+      >
         <Logo />
-        <div className="sticky z-50 top-0">
+        <div>
           <div
             onClick={handleOnNavClick}
             className={`flex text-white bg-black rounded-lg px-4 py-2 font-matter font-medium cursor-pointer ${
@@ -37,7 +45,7 @@ export default function Navbar({ displayBlackScreen, hideBlackScreen }) {
           <div
             className={`bg-[#101010] ${
               !displayPopup && "hidden"
-            } min-w-[27.5rem] z-50 rounded-lg px-10 pt-7 pb-10 text-[#EBEBEB] absolute right-0`}
+            } min-w-[27.5rem] z-50 rounded-lg px-10 pt-7 pb-10 text-[#EBEBEB] absolute right-10`}
           >
             <div className="flex justify-between">
               <Logo isLight={true} />
