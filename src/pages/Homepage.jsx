@@ -54,31 +54,32 @@ const Homepage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
               title="Norris Mclaughlin"
-              imgName="norris-mclaughlin.png"
+              imgName="norris-homepage.png"
               description="Redesigning an experience of connecting and searching legal
                   service"
-              goToUrl="/work/norris-mclaughlin"
+              goToUrl="/work/norris-homepage"
+              imgCoverName="bg-cover-norris.png"
             />
             <Work
               title="Home + Space"
-              imgName="home-space.png"
+              imgName="homespace-homepage.png"
               description="Enhancing collaboration platform within the architectures
               industry"
-              goToUrl="/work/home-space"
+              imgCoverName="bg-cover-home-space.png"
             />
             <Work
               title="Platforme 6610"
-              imgName="platforme-6610.png"
+              imgName="platforme-homepage-cover.png"
               description="Designing bilingual platform dedicated to wellness community
               center"
-              goToUrl="/work/platforme-6610"
+              imgCoverName="bg-cover-platforme.png"
             />
             <Work
               title="Big Game Golf"
-              imgName="big-game-golf.png"
+              imgName="biggame-homepage.png"
               description="Elevating golf experience in a form of mobile application -
               Phase 02"
-              goToUrl="/work/big-game-golf"
+              imgCoverName="bg-cover-big-game-golf.png"
             />
           </div>
         </section>
@@ -90,17 +91,19 @@ const Homepage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
               title="Big Game Golf Branding"
-              imgName="big-game-golf-branding.png"
+              imgName="biggame-homepage.png"
               description="Redesigning an experience of connecting and searching legal
               service"
               goToUrl="/work/big-game-golf-branding"
+              imgCoverName="bg-cover-big-game-golf-branding.png"
             />
             <Work
               title="Rojorganic"
-              imgName="rojorganic.jpg"
+              imgName="rojorganic-homepage.png"
               description="Enhancing collaboration platform within the architectures
               industry"
               goToUrl="/work/rojorganics"
+              imgCoverName="bg-cover-rojorganic.png"
             />
           </div>
         </section>
