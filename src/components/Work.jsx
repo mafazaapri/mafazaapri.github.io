@@ -1,5 +1,6 @@
 import React from "react";
 import GoToButton from "./GoToButton";
+import { Link } from "react-router-dom";
 
 export default function Work({
   title,
@@ -18,7 +19,7 @@ export default function Work({
           Redesigning an experience of connecting and searching legal service.
         </div>
         <div className="underline font-medium font-matter underline-offset-4 mb-14">
-          Read case study
+          <Link to={goToUrl}>Read case study</Link>
         </div>
       </div>
       <img

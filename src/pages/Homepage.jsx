@@ -57,7 +57,7 @@ const Homepage = () => {
               imgName="norris-homepage.png"
               description="Redesigning an experience of connecting and searching legal
                   service"
-              goToUrl="/work/norris-homepage"
+              goToUrl="/work/norris-mclaughlin"
               imgCoverName="bg-cover-norris.png"
             />
             <Work
@@ -65,6 +65,7 @@ const Homepage = () => {
               imgName="homespace-homepage.png"
               description="Enhancing collaboration platform within the architectures
               industry"
+              goToUrl="/work/home-space"
               imgCoverName="bg-cover-home-space.png"
             />
             <Work
@@ -72,6 +73,7 @@ const Homepage = () => {
               imgName="platforme-homepage-cover.png"
               description="Designing bilingual platform dedicated to wellness community
               center"
+              goToUrl="/work/platforme-6610"
               imgCoverName="bg-cover-platforme.png"
             />
             <Work
@@ -79,6 +81,7 @@ const Homepage = () => {
               imgName="biggame-homepage.png"
               description="Elevating golf experience in a form of mobile application -
               Phase 02"
+              goToUrl="/work/rojorganics"
               imgCoverName="bg-cover-big-game-golf.png"
             />
           </div>

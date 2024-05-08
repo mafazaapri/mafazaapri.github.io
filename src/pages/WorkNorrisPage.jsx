@@ -18,7 +18,10 @@ export default function WorkNorrisPage() {
         title="Norris Mclaughlin"
         desc="Redesigning an experience of connecting and searching legal service"
       />
-      <HeaderImage imgName="norris-mclaughlin.png" />
+      <HeaderImage
+        imgCoverName="bg-cover-norris.png"
+        imgName="norris-homepage.png"
+      />
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">
@@ -43,7 +46,7 @@ export default function WorkNorrisPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
             <div>
               <HeaderTitle>Role & Responsibilities</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 As a UX designer I was responsible to collaborate with team
                 member and design 30+ unique pages. My involvement in the
                 project included user research, visual concept, and producing
@@ -57,7 +60,7 @@ export default function WorkNorrisPage() {
             <div>
               <HeaderTitle>Focus</HeaderTitle>
 
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Norris Mclaughlin needed to replace their current website,
                 organize the site architecture, and enhance the platform to
                 create a seamless experience for clients to find attorney.
@@ -70,7 +73,7 @@ export default function WorkNorrisPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>User Research</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 To have a better understanding about Norris Mclaughlin we start
                 off the project by conducting interview with the team member and
                 attorneys. We composed questionnaire related to their
@@ -100,7 +103,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     How you describe your company in a few sentences?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[20rem]">
                     We are a full service law firm providing counseling to
                     businesses of all sizes in a variety of industries. Our
                     attorneys assist with businesses in all stages of growth and
@@ -114,7 +117,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     On NM existing website what doesn’t work well?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[25.625rem]">
                     I am not happy with the mobile site. I think it lacks
                     functionality when you are trying to access content and date
                     from a mobile device. Also the blog searching capabilities
@@ -126,7 +129,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     Who individually interest in the outcome of this project?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[20rem]">
                     All of the attorneys have an interest. The website is the
                     first place prospects go to get information about the firm
                     after meeting one of us individually or perhaps even before
@@ -137,7 +140,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     What differentiates your company from your competitors?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[25.625rem]">
                     The various industries we service; the scope and depth of
                     industry knowledge; affordable rates; global networks of
                     colleagues.
@@ -166,7 +169,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     How you describe your company in a few sentences?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[20rem]">
                     Norris McLaughlin, P.A., is a mid-sized, regional law firm
                     that serves the legal needs of businesses and families in
                     New Jersey, New York, and Pennsylvania. Norris McLaughlin is
@@ -178,7 +181,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     On NM existing website what doesn’t work well?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[25.625rem]">
                     It's an old drupal site configured to word press using
                     plug-ins. It's a disaster.
                   </p>
@@ -187,7 +190,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     Who individually interest in the outcome of this project?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[20rem]">
                     Jim J., Bob G., Marketing Committee, Marketing Department,
                     Practice Group Leads, IT, HR, Recruiting (Attorney),
                     Finance/Accounting, Management Committee
@@ -197,7 +200,7 @@ export default function WorkNorrisPage() {
                   <div className="font-medium underline underline-offset-4 mb-3">
                     What differentiates your company from your competitors?
                   </div>
-                  <p className="max-w-[40.625rem]">
+                  <p className="max-w-[25.625rem]">
                     Our value proposition is based on the FACT that our
                     professionals have some of the same skills and experience as
                     attorneys who handle sophisticated legal work at Big Law
@@ -240,7 +243,7 @@ export default function WorkNorrisPage() {
           <div className="grid grid-cols-12 mb-14">
             <div className="col-span-7">
               <HeaderTitle>Understanding Target Audience</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 There are reasons attributes to decision-making when people make
                 a purchase, for instance between person who is visiting Amazon
                 website and person who is visiting legal service website.{" "}
@@ -274,7 +277,7 @@ export default function WorkNorrisPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
             <div>
               <HeaderTitle>Key Takeaway</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 After analyzing the discovery phase and synthesize the current
                 website I came up with three prioritized issue that I discovered
                 and plays a significant role in the overall experience ; Search
@@ -287,7 +290,7 @@ export default function WorkNorrisPage() {
               <div className="font-medium mb-3 uppercase">
                 Primary Searching Feature
               </div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 When user visited NM website the primary task is to find
                 attorney who serve the legal service they needed and whom
                 practice on the location the are looking for. The current search
@@ -299,7 +302,7 @@ export default function WorkNorrisPage() {
               <div className="font-medium mb-3 uppercase">
                 Poor User Journey
               </div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 There are three primary users on NM website ; potential clients,
                 lawyer and internal members. Each user has various different
                 task to accomplish on the website. The current website shows a
@@ -311,7 +314,7 @@ export default function WorkNorrisPage() {
               <div className="font-medium mb-3 uppercase">
                 Lack of Information Architecture
               </div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 NM website very rich with content such as lawyers profile,
                 article, blog, events and podcast there are hundreds of post
                 written by attorneys. All of these information are accessible
@@ -325,9 +328,9 @@ export default function WorkNorrisPage() {
         <Seperator />
         <section>
           <HeaderTitle>#1 Searching Experience</HeaderTitle>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-20">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 How do user find an attorney and information related problem
                 they have? to answer this question I build a single scenario for
                 user to visit the website and find an attorney. The concept was
@@ -338,18 +341,20 @@ export default function WorkNorrisPage() {
               </p>
             </div>
             <div>
-              <div className="bg-black h-1 mb-3"></div>
-              <p className="text-3xl font-medium max-w-[45rem]">
-                Think of it like a Google search, in a few keywords you get
-                results to the right attorney, articles, news, and related
-                events.
-              </p>
+              <div className="text-3xl font-medium max-w-[45rem]">
+                <img src="/img/cloud.png" className="w-[2.25rem] mb-4" />
+                <p>
+                  Think of it like a Google search, in a few keywords you get
+                  results to the right attorney, articles, news, and related
+                  events.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#DEE9F8] px-14 py-16 flex justify-center items-center mb-10">
             <SearchingExperienceMap />
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#DEE9F8] px-14 py-16 flex justify-center items-center mb-10">
             <img
               src="/img/norris-search-result.png"
               className="max-h-[40rem] rounded-lg"
@@ -361,7 +366,7 @@ export default function WorkNorrisPage() {
           <HeaderTitle>#2 Attorney's Profile</HeaderTitle>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-16">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 During the initial user research attorneys explained the role of
                 the website to become a tool for them to showcase their profile,
                 background, expertise, and content related to their experience.
@@ -374,14 +379,17 @@ export default function WorkNorrisPage() {
               </p>
             </div>
             <div>
-              <div className="bg-black h-1 mb-3"></div>
-              <p className="text-3xl font-medium max-w-[45rem]">
-                The challenge is how to provide all information related to David
-                without requiring users to navigate between multiple pages.
-              </p>
+              <div className="text-3xl font-medium max-w-[45rem]">
+                <img src="/img/cloud.png" className="w-[2.25rem] mb-4" />
+                <p>
+                  The challenge is how to provide all information related to
+                  David without requiring users to navigate between multiple
+                  pages.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 mb-20 grid grid-cols-10 gap-x-14">
+          <div className="bg-[#DEE9F8] px-14 py-16 mb-20 grid grid-cols-10 gap-x-14">
             <div className="col-span-2 flex justify-center items-center">
               <div className="bg-[#F8F8F8] py-6 px-6 flex flex-col justify-center items-center rounded-md">
                 <div
@@ -421,10 +429,10 @@ export default function WorkNorrisPage() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
             <div>
               <HeaderTitle>One Stop Shop Experience</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 After understanding their pain points and considering attorney’s
                 needs and wants I created a designated space for attorney to
                 showcase their portfolio and all content related to that
@@ -433,17 +441,17 @@ export default function WorkNorrisPage() {
               </p>
             </div>
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#DEE9F8] px-14 py-16 flex justify-center items-center mb-10">
             <img
               src="/img/norris-search-result.png"
               className="max-h-[40rem] rounded-lg"
             />
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-10">
-            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#DEE9F8] px-10 pt-12 flex justify-center items-center">
               <img src="/img/norris-homepage-1.png" className="rounded-t-lg" />
             </div>
-            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#DEE9F8] px-10 pt-12 flex justify-center items-center">
               <img src="/img/norris-homepage-2.png" className="rounded-t-lg" />
             </div>
           </div>
@@ -453,7 +461,7 @@ export default function WorkNorrisPage() {
           <HeaderTitle>#3 Simplify Navigation</HeaderTitle>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-16">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 One of the main pain points identified was the complex
                 navigation bar. There are too many focus point presented on the
                 current navigation system. Having information is great but when
@@ -463,7 +471,7 @@ export default function WorkNorrisPage() {
             </div>
             <div>
               <div className="bg-black h-1 mb-3"></div>
-              <p className="text-3xl font-medium max-w-[45rem]">
+              <p className="text-3xl font-medium max-w-[31.25rem]">
                 The time it takes to make a decision increases with the number
                 and complexity of choices available -Hick’s law
               </p>
@@ -471,7 +479,7 @@ export default function WorkNorrisPage() {
           </div>
           <img src="/img/norris-header.png" className="mb-16"></img>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-10">
-            <p className="max-w-[40.625rem]">
+            <p className="max-w-[31.25rem]">
               After reorganizing the entire links on the current website and how
               everything placed I’m able to eliminate some of the link on the
               primary navigation. The goal is to simplify the navigation to only
@@ -484,7 +492,7 @@ export default function WorkNorrisPage() {
               with low-priority.
             </p>
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 grid grid-cols-12 gap-10 justify-items-center">
+          <div className="bg-[#DEE9F8] px-14 py-16 grid grid-cols-12 gap-10 justify-items-center">
             <div className="col-span-12 lg:col-span-9">
               <img
                 src="/img/norris-services-catalog-page.png"
@@ -501,10 +509,10 @@ export default function WorkNorrisPage() {
           </div>
         </section>
         <Seperator />
-        <section className="mb-20">
+        <section className="mb-24">
           <HeaderTitle className="mb-6">Cohesive Experience</HeaderTitle>
           <div className="flex justify-between mb-16 flex-col lg:flex-row gap-10">
-            <p className="max-w-[40.625rem]">
+            <p className="max-w-[31.25rem]">
               To ensure cohesive experience I designed the rest of the pages to
               align with design system and reorganizing the layout while
               maintaining readability and accessibility. Below screenshot for
@@ -514,39 +522,39 @@ export default function WorkNorrisPage() {
               <VisitButton url="https://norrismclaughlin.com/" />
             </div>
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#DEE9F8] px-14 py-16 flex justify-center items-center mb-10">
             <img
               src="/img/norris-asset-protection-page.png"
               className="max-h-[40rem] rounded-lg"
             />
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#DEE9F8] px-14 py-16 flex justify-center items-center mb-10">
             <img
               src="/img/norris-blog-page.png"
               className="max-h-[40rem] rounded-lg"
             />
           </div>
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#DEE9F8] px-14 py-16 flex justify-center items-center mb-10">
             <img
               src="/img/norris-services-page.png"
               className="max-h-[40rem] rounded-lg"
             />
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#DEE9F8] px-10 pt-12 flex justify-center items-center">
               <img src="/img/norris-news-page-1.png" className="rounded-t-lg" />
             </div>
-            <div className="bg-[#D6DAE2] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#DEE9F8] px-10 pt-12 flex justify-center items-center">
               <img src="/img/norris-news-page-2.png" className="rounded-t-lg" />
             </div>
           </div>
         </section>
         <section>
           <ReadNext
-            imgName="home-space.png"
+            imgName="homespace-homepage.png"
+            imgCoverName="bg-cover-home-space.png"
             title="Home + Space"
-            desc="I designed interface for collaboration platform to help
-            architectures get their project done."
+            desc="Enhancing collaboration platform within the architectures industry"
             url="/work/home-space"
             imgClassName="lg:object-[50%_12%]"
           />

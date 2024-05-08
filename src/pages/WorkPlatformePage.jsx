@@ -16,7 +16,10 @@ export default function WorkPlatformePage() {
         title="Platforme 6610"
         desc="Designing bilingual platform dedicated to wellness community center"
       />
-      <HeaderImage imgName="platforme-6610.png" />
+      <HeaderImage
+        imgCoverName="bg-cover-platforme.png"
+        imgName="platforme-homepage-cover.png"
+      />
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">

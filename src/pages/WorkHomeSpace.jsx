@@ -24,7 +24,11 @@ export default function WorkHomeSpace() {
         title="Home + Space"
         desc="Enhancing collaboration platform within the architectures industry"
       />
-      <HeaderImage imgName="home-space.png" className="lg:object-[50%_20%]" />
+      <HeaderImage
+        imgCoverName="bg-cover-home-space.png"
+        imgName="homespace-homepage.png"
+        className="lg:object-[50%_20%]"
+      />
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">
