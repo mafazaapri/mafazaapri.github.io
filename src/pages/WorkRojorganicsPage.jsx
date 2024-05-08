@@ -6,7 +6,7 @@ import RojorganicsLogo from "../assets/rojorganics-logo.svg?react";
 import HeaderImage from "../components/HeaderImage";
 import ReadNext from "../components/ReadNext";
 import PageMetadata from "../components/PageMetadata";
-
+import VisitButton from "../components/VisitButton";
 export default function WorkRojorganicsPage() {
   return (
     <>
@@ -28,6 +28,11 @@ export default function WorkRojorganicsPage() {
                 beauty product launch. I work closely with the product owner and
                 composing visual based on the needs and goal of the product.
               </p>
+            </div>
+            <div>
+              <div>
+                <VisitButton url="https://www.instagram.com/rojorganics/?hl=en" />
+              </div>
             </div>
           </div>
           <HeaderTitle>Background</HeaderTitle>

@@ -10,7 +10,7 @@ export default function WorkBigGameGolfBranding() {
   return (
     <>
       <PageMetadata
-        title="Home + Space"
+        title="Big Game Golf Branding"
         desc="Enhancing collaboration platform within the architectures industry"
       />
       <HeaderImage imgName="big-game-golf-branding.png" />

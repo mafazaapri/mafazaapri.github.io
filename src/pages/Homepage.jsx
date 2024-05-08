@@ -81,7 +81,7 @@ const Homepage = () => {
               imgName="biggame-homepage.png"
               description="Elevating golf experience in a form of mobile application -
               Phase 02"
-              goToUrl="/work/rojorganics"
+              goToUrl="/work/big-game-golf"
               imgCoverName="bg-cover-big-game-golf.png"
             />
           </div>

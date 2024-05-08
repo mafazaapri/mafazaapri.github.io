@@ -470,11 +470,13 @@ export default function WorkNorrisPage() {
               </p>
             </div>
             <div>
-              <div className="bg-black h-1 mb-3"></div>
-              <p className="text-3xl font-medium max-w-[31.25rem]">
-                The time it takes to make a decision increases with the number
-                and complexity of choices available -Hick’s law
-              </p>
+              <div>
+                <img src="/img/sprinkle.png" className="w-[1.875rem] mb-4" />
+                <p className="text-3xl font-medium max-w-[31.25rem]">
+                  The time it takes to make a decision increases with the number
+                  and complexity of choices available -Hick’s law
+                </p>
+              </div>
             </div>
           </div>
           <img src="/img/norris-header.png" className="mb-16"></img>

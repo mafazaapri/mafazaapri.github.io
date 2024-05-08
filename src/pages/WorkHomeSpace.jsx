@@ -52,7 +52,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
             <div>
               <HeaderTitle>Role & Responsibilities</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 I work in a team of project manager and UX researcher, as a UX
                 designer I’m responsible to be involve in sprint process ideate
                 from concept to execution, deliver high-fidelity prototype as
@@ -61,7 +61,7 @@ export default function WorkHomeSpace() {
             </div>
             <div>
               <HeaderTitle>Focus</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Building MVP product with applicable streamline task-flow and to
                 conceptualize a feasible interface allowing user to collaborate,
                 communicate, and to accomplish their task effectively.
@@ -74,7 +74,7 @@ export default function WorkHomeSpace() {
           <HeaderTitle>Start From Where We At</HeaderTitle>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-20">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 From the first we worked closely with stakeholders who are
                 eagerly to build the concept of collaboration platform. We
                 identified there are three primary users who will be benefited
@@ -102,7 +102,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>Understanding The Current Situation</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 After understanding the role for each user and how the tree user
                 synchronize. We begin to identifying how the team initiate the
                 project starting from being in touch with client until the final
@@ -118,7 +118,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>Current Task Flow</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Generating proposal is the very first action that has to be done
                 in order to start the project. We asked the stakeholders to
                 explain the current flow of generating proposal in a scenario of
@@ -134,14 +134,14 @@ export default function WorkHomeSpace() {
           <div>
             <HeaderTitle>Painting The Paint Point</HeaderTitle>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-8">
-              <p>
+              <p className="max-w-[31.25rem]">
                 Learning the current user flow and understanding their flow to
                 generate proposal has helped me to understand the current
                 problem they are facing on the system.
               </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
-              <div className="flex">
+              <div className="flex max-w-[31.25rem]">
                 <PainPoint>
                   To generate a single proposal the team has to utilized four
                   different subscribed software tools. The time that it took for
@@ -149,21 +149,21 @@ export default function WorkHomeSpace() {
                   is inefficient.
                 </PainPoint>
               </div>
-              <div className="flex">
+              <div className="flex max-w-[31.25rem]">
                 <PainPoint>
                   When client requested for additional or alternate item it
                   become a long-winded journey where team has to go back from
                   square one.
                 </PainPoint>
               </div>
-              <div className="flex">
+              <div className="flex max-w-[31.25rem]">
                 <PainPoint>
                   Collaboration between architects and project manager is done
                   through scattered emails and calls. Communication management
                   done traditionally.
                 </PainPoint>
               </div>
-              <div className="flex">
+              <div className="flex max-w-[31.25rem]">
                 <PainPoint>
                   With the current task-flow managing multiple projects become
                   very challenging and limit the capacity as well as
@@ -178,7 +178,7 @@ export default function WorkHomeSpace() {
           <HeaderTitle>Identify The Box to Fit In</HeaderTitle>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-20">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 During the design sprint we completed card sorting session to
                 determine what would be the priority feature implemented on the
                 platform. We do this by evaluating and prioritizing the
@@ -210,7 +210,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>Simplifying Task Flow</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 With the vision to have one space for all I created a simpler
                 task flow where project manager can initiate new project and
                 have the collaboration happen within the same designated space,
@@ -227,7 +227,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>Integrating Mental Model on Interface</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 I aimed to designed a feasible platform that can reduce user’s
                 cognitive load. The final product interface has to be simple,
                 better, and has a sense of familiarity to replace the tool they
@@ -253,7 +253,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-16">
             <div>
               <HeaderTitle>Concept</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 The concept on the dashboard it to have a currated tab to
                 manage, track, and monitor the project. The tab designed
                 following the task-flow for project manager to track the
@@ -270,7 +270,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
               <HeaderTitle>Dashboard</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Home dashboard is designed for users to view and track all of
                 projects. There are many important information details in this
                 screen and features which can help users to do a quick editing
@@ -289,7 +289,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
               <HeaderTitle>Vision Board</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 One of the crucial feature in the platform is vision board,
                 vision board act like a moodboard where architects can create
                 and collect inspiration in one space, they also able to invite
@@ -312,7 +312,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
               <HeaderTitle>Vision Board</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 One of the essential feature in the platform is vision board,
                 vision board act like a moodboard where architects can create
                 and collect inspiration in one space, they also able to invite
@@ -335,7 +335,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
               <HeaderTitle>Product Catalog</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 To replace traditional book product catalog, the new platform
                 allowed the team to input database of product and easily added
                 to any project. User able to add product image, write
@@ -362,7 +362,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
               <HeaderTitle>Messaging System</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 A streamline messaging system embedded in the platform for user
                 to communicate. User allowed to select project intended on the
                 conversation to track and monitor the message seamlessly.
@@ -382,7 +382,7 @@ export default function WorkHomeSpace() {
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
               <HeaderTitle>Mobile Platform</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 To have a fully function experience I designed adaptive mobile
                 versions. Users able to effectively perform task through mobile
                 and work on project. I adapted the design from desktop and
@@ -401,7 +401,8 @@ export default function WorkHomeSpace() {
         </section>
         <section>
           <ReadNext
-            imgName="platforme-6610.png"
+            imgName="platforme-homepage-cover.png"
+            imgCoverName="bg-cover-platforme.png"
             title="Platforme 6610"
             desc="Designing bilingual platform dedicated to wellness community
                   center"

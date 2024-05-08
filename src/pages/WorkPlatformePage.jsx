@@ -41,7 +41,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
               <HeaderTitle>Role & Responsibilities</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 My main role in this project is to collaborate with the product
                 manager and stakeholders to develop the platform from the
                 creative side. Since Platforme 6610 needs a major rebranding, I
@@ -53,7 +53,7 @@ export default function WorkPlatformePage() {
             </div>
             <div>
               <HeaderTitle>Focus</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 There are two clear goals to be achieved by the end of the
                 project. First, to create a new brand identity for Platforme
                 6610. Second, to develop a website that aligns with the brand's
@@ -69,7 +69,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
             <div>
               <HeaderTitle>Navigating Direction</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 In the beginning of the process me an my team had a throughout
                 discussion with the stakeholders discussing on what should be
                 the right approach to introduce a new fitness center to the
@@ -85,7 +85,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-8">
             <div>
               <HeaderTitle>Composing Homepage</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 I organized the layout for the homepage while considering the
                 key points that I need to meet on the website. The overall goal
                 is to focused on introducing Platforme 6610 as a competitive
@@ -97,7 +97,7 @@ export default function WorkPlatformePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
             <div>
-              <p className="italic">
+              <p className="italic max-w-[31.25rem]">
                 As a user I want to be able to know what service provided, so
                 that I know what Platforme 6610 all about.
                 <br />
@@ -111,7 +111,7 @@ export default function WorkPlatformePage() {
               </p>
             </div>
             <div>
-              <p className="italic">
+              <p className="italic max-w-[31.25rem]">
                 As a user I want to be able to know the price membership so that
                 I can compare with fitness center on the area.
                 <br />
@@ -124,7 +124,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>#1 Website</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 After considering user’s needs and wants, I create prototype
                 with goal to have the overall website design in sync.
                 Calls-to-action (CTAs) play a significant role in prompting
@@ -136,7 +136,7 @@ export default function WorkPlatformePage() {
             </div>
             <div>
               <HeaderTitle>Micro Interaction</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 To create a powerful statement I designed a micro-interaction as
                 a starter to the website. I utilize the logo design and follows
                 by short video with brief paragraph introducing the fitness
@@ -145,14 +145,14 @@ export default function WorkPlatformePage() {
               </p>
             </div>
           </div>
-          <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center mb-14">
+          <div className="bg-[#FFE2CD] px-14 py-16 flex justify-center items-center mb-14">
             <div className="bg-black h-[531px] w-[1041px]"></div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div className="bg-[#617698cc] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#FFE2CD] px-10 pt-12 flex justify-center items-center">
               <img src="/img/platforme-homepage.png" className="rounded-t-lg" />
             </div>
-            <div className="bg-[#617698cc] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#FFE2CD] px-10 pt-12 flex justify-center items-center">
               <img
                 src="/img/platforme-homepage-2.png"
                 className="rounded-t-lg"
@@ -165,7 +165,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
             <div>
               <HeaderTitle>Class Schedule</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 One of the main takeaways mentioned during the discovery phase
                 was to include a class schedule as part of the website. The
                 class schedule will automatically rotate every two weeks,
@@ -176,7 +176,7 @@ export default function WorkPlatformePage() {
             </div>
             <div>
               <HeaderTitle>Focus</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 In order to develop the class schedule, I conducted a
                 comparative study among different fitness platforms and analyzed
                 how they present their schedules on their respective websites.
@@ -187,7 +187,7 @@ export default function WorkPlatformePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 LA Fitness
                 <br />
                 <br />
@@ -205,7 +205,7 @@ export default function WorkPlatformePage() {
               </p>
             </div>
             <div>
-              <div className="bg-[#617698cc] px-16 py-10 flex justify-center items-center">
+              <div className="bg-[#FFE2CD] px-16 py-10 flex justify-center items-center">
                 <img
                   src="/img/platforme-la-fitness.png"
                   className="rounded-lg"
@@ -215,7 +215,7 @@ export default function WorkPlatformePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
             <div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Rival Fitness
                 <br />
                 <br />
@@ -241,7 +241,7 @@ export default function WorkPlatformePage() {
               </p>
             </div>
             <div>
-              <div className="bg-[#617698cc] px-16 py-10 flex justify-center items-center">
+              <div className="bg-[#FFE2CD] px-16 py-10 flex justify-center items-center">
                 <img
                   src="/img/platforme-rival-fitness.png"
                   className="rounded-lg"
@@ -252,7 +252,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
               <HeaderTitle>Class Schedule</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 After observing comparative study and understanding the scale of
                 available classes on the schedule. I designed a schedule to fit
                 in with the user’s needs.
@@ -263,11 +263,11 @@ export default function WorkPlatformePage() {
             <div>
               <div className="flex gap-3 mb-3">
                 <FontAwesomeIcon icon={faSquareCheck} size="lg" />
-                <div className="max-w-[40.625rem] font-medium text-lg leading-none">
+                <div className="max-w-[31.25rem] font-medium text-lg leading-none">
                   Compare available classes across the day
                 </div>
               </div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Utilizing X and Y graph to increase readability when scanning
                 the class availability. The X column shows as indicator of
                 timing and the Y row has info of classes in a card with length
@@ -277,11 +277,11 @@ export default function WorkPlatformePage() {
             <div>
               <div className="flex items-center gap-3 mb-3">
                 <FontAwesomeIcon icon={faSquareCheck} size="lg" />
-                <div className="max-w-[40.625rem] font-medium text-lg">
+                <div className="max-w-[31.25rem] font-medium text-lg">
                   Allowing user to pick and choose
                 </div>
               </div>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 Since the class are available from Monday to Sunday I’m
                 implementing a clickable column where user can view the schedule
                 based on the selected day. Additionally user allowed to view the
@@ -290,15 +290,7 @@ export default function WorkPlatformePage() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-7 mb-14">
-            <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center">
-              <div className="bg-black h-[450px] w-[450px]"></div>
-            </div>
-            <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center">
-              <div className="bg-black h-[450px] w-[450px]"></div>
-            </div>
-          </div>
-          <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center mb-10">
+          <div className="bg-[#FFE2CD] px-14 py-16 flex justify-center items-center mb-10">
             <img
               src="/img/platforme-class.png"
               className="rounded-lg max-h-[40rem]"
@@ -308,8 +300,8 @@ export default function WorkPlatformePage() {
         <Seperator />
         <section>
           <div className="flex justify-between mb-16">
-            <div className="max-w-[40.625rem]">
-              <HeaderTitle>Class Schedule</HeaderTitle>
+            <div className="max-w-[31.25rem]">
+              <HeaderTitle>Final Design</HeaderTitle>
               <p>
                 One of the main takeaways mentioned during the discovery phase
                 was to include a class schedule as part of the website. The
@@ -324,10 +316,10 @@ export default function WorkPlatformePage() {
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div className="bg-[#617698cc] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#FFE2CD] px-10 pt-12 flex justify-center items-center">
               <img src="/img/platforme-contact.png" className="rounded-t-lg" />
             </div>
-            <div className="bg-[#617698cc] px-10 pt-12 flex justify-center items-center">
+            <div className="bg-[#FFE2CD] px-10 pt-12 flex justify-center items-center">
               <img
                 src="/img/platforme-contact-2.png"
                 className="rounded-t-lg"
@@ -340,7 +332,7 @@ export default function WorkPlatformePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
             <div>
               <HeaderTitle>Mobile Responsive</HeaderTitle>
-              <p className="max-w-[40.625rem]">
+              <p className="max-w-[31.25rem]">
                 One of the main takeaways mentioned during the discovery phase
                 was to include a class schedule as part of the website. The
                 class schedule will automatically rotate every two weeks,
@@ -351,7 +343,7 @@ export default function WorkPlatformePage() {
             </div>
           </div>
           <div className="bg-[url('/img/platforme-phone.png')] h-[42rem] bg-cover bg-center mb-14" />
-          <div className="bg-[#617698cc] px-14 py-16 flex justify-center items-center">
+          <div className="bg-[#FFE2CD] px-14 py-16 flex justify-center items-center">
             <img
               src="/img/platforme-mockup.png"
               className="rounded-lg max-h-[40rem]"
