@@ -5,6 +5,7 @@ import HeaderTitle from "../components/HeaderTitle";
 import Seperator from "../components/Seperator";
 import ReadNext from "../components/ReadNext";
 import BggPoint from "./page_components/bgg/BggPoint";
+import Footer from "../components/Footer";
 
 export default function WorkBigGameGolf() {
   return (
@@ -15,7 +16,8 @@ export default function WorkBigGameGolf() {
       />
       <HeaderImage
         imgCoverName="bg-cover-big-game-golf.png"
-        imgName="norris-homepage.png"
+        imgName="bgg-page.png"
+        className="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       />
       <div className="container">
         <section className="mb-10">
@@ -236,16 +238,17 @@ export default function WorkBigGameGolf() {
         </section>
         <section>
           <ReadNext
-            imgName="homespace-homepage.png"
-            imgCoverName="bg-cover-home-space.png"
+            imgName="bgg-branding-page.png"
+            imgCoverName="bg-cover-big-game-golf-branding.png"
+            imgClassName="max-w-[30.875rem]"
             title="Big Game Golf Branding"
             desc="Elevating golf experience in a form of
             mobile application"
             url="/work/big-game-golf-branding"
-            imgClassName="lg:object-[50%_12%]"
           />
         </section>
       </div>
+      <Footer />
     </>
   );
 }

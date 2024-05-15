@@ -94,7 +94,7 @@ const Homepage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
               title="Big Game Golf Branding"
-              imgName="biggame-homepage.png"
+              imgName="bgg-branding-homepage.png"
               description="Redesigning an experience of connecting and searching legal
               service"
               goToUrl="/work/big-game-golf-branding"
@@ -102,7 +102,7 @@ const Homepage = () => {
             />
             <Work
               title="Rojorganic"
-              imgName="rojorganic-homepage.png"
+              imgName="rojorganic-branding-homepage.png"
               description="Enhancing collaboration platform within the architectures
               industry"
               goToUrl="/work/rojorganics"

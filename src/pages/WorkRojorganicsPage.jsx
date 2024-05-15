@@ -14,7 +14,11 @@ export default function WorkRojorganicsPage() {
         title="Rojorganic"
         desc="Enhancing collaboration platform within the architectures industry"
       />
-      <HeaderImage imgName="rojorganics-cover.jpg" />
+      <HeaderImage
+        imgCoverName="bg-cover-rojorganic.png"
+        imgName="rojorganic-page.png"
+        className="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      />
       <div className="container">
         <section className="mb-10">
           <div className="flex justify-between mb-16">
@@ -69,7 +73,8 @@ export default function WorkRojorganicsPage() {
         </section>
         <section>
           <ReadNext
-            imgName="norris-mclaughlin.png"
+            imgName="norris-homepage.png"
+            imgCoverName="bg-cover-norris.png"
             title="Norris Mclaughlin"
             desc="I create an experience for user to search and connect with
             legal service representative."

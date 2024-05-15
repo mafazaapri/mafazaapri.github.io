@@ -352,7 +352,9 @@ export default function WorkPlatformePage() {
         </section>
         <section>
           <ReadNext
-            imgName="big-game-golf.png"
+            imgName="bgg-branding-page.png"
+            imgCoverName="bg-cover-big-game-golf-branding.png"
+            imgClassName="max-w-[30.875rem]"
             title="Big Game Golf"
             desc="Elevating golf experience in a form of mobile application -
             Phase 02"

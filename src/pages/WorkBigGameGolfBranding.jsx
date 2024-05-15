@@ -13,7 +13,11 @@ export default function WorkBigGameGolfBranding() {
         title="Big Game Golf Branding"
         desc="Enhancing collaboration platform within the architectures industry"
       />
-      <HeaderImage imgName="big-game-golf-branding.png" />
+      <HeaderImage
+        imgName="bgg-branding-page.png"
+        imgCoverName="bg-cover-big-game-golf-branding.png"
+        className="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      />
       <div className="container">
         <section>
           <div className="flex justify-between mb-16">
@@ -199,12 +203,13 @@ export default function WorkBigGameGolfBranding() {
         </section>
         <section>
           <ReadNext
-            imgName="home-space.png"
-            title="Home + Space"
-            desc="I designed interface for collaboration platform to help
-            architectures get their project done."
-            url="/work/home-space"
-            imgClassName="lg:object-[50%_12%]"
+            imgName="rojorganic-bottle.png"
+            imgCoverName="bg-cover-rojorganic.png"
+            title="Rojorganic"
+            desc="Creating a brand packaging for organic 
+            beauty product"
+            url="/work/rojorganics"
+            imgClassName="max-w-[6rem] top-16 left-2/3 object-cover -translate-x-1/2"
           />
         </section>
       </div>

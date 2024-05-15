@@ -31,7 +31,7 @@ export default function Navbar({
         }`}
       >
         <Logo />
-        <div>
+        <div className="relative">
           <div
             onClick={handleOnNavClick}
             className={`flex text-white bg-black rounded-lg px-4 py-2 font-matter font-medium cursor-pointer ${
