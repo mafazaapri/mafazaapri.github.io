@@ -51,7 +51,21 @@ function App() {
         </div>
       </div>
       <div className="relative">
-        <Outlet context={[displayBlackScreen, hideBlackScreen]} />
+        <div className="hidden lg:block">
+          <Outlet context={[displayBlackScreen, hideBlackScreen]} />
+        </div>
+        <div
+          className="block lg:hidden h-screen w-screen absolute
+"
+        >
+          <div
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+"
+          >
+            The mobile version is currently not ready. Please use desktop to
+            view or visit back later.
+          </div>
+        </div>
         <div
           className={`bg-black opacity-30 z-40 w-full h-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
             !blackScreenVisible && "hidden"
