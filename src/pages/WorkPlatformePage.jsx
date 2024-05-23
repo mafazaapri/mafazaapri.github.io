@@ -146,7 +146,10 @@ export default function WorkPlatformePage() {
             </div>
           </div>
           <div className="bg-[#FFE2CD] px-14 py-16 flex justify-center items-center mb-14">
-            <div className="bg-black h-[531px] w-[1041px]"></div>
+            <video width="1041" height="531" controls> 
+  <source src="/img/Platforme-6610-vid.mp4" type="video/mp4"> 
+  Your browser does not support the video tag. 
+</video>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div className="bg-[#FFE2CD] px-10 pt-12 flex justify-center items-center">
