@@ -186,7 +186,7 @@ export default function WorkHomeSpace() {
                 tracking, payment system, ordering systems, and vision board.
                 <br />
                 <br />
-                With the goal of MVP in mind we narrowed the focus to engagement
+                We narrowed the focus to engagement
                 between project owner and collaborator. I created feature-level
                 restriction, where the main primary user, project owner has all
                 feature access and collaborator in a second perimeter on feature
