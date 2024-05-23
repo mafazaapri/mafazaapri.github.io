@@ -36,7 +36,14 @@ export default function Footer() {
                     LinkedIn
                   </a>
                 </li>
-                <li className="mb-5">View my resume</li>
+                <li className="mb-5">
+                  <a
+                    href="https://www.dropbox.com/scl/fi/81ay4yid0axev5woiavf2/Mafaza-UXResume.pdf?rlkey=j8pik31m41iqfpz0bg6ouevst&st=wxwnvxy0&dl=0"
+                    target="_blank"
+                  >
+                  View my resume
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
