@@ -178,7 +178,7 @@ export default function WorkPlatformePage() {
               </p>
             </div>
             <div>
-              <header title> Comparative study</header>
+              <HeaderTitle> Comparative study</HeaderTitle>
               <p className="max-w-[31.25rem]">
                 In order to develop the class schedule, I conducted a
                 comparative study among different fitness platforms and analyzed
