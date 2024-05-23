@@ -257,21 +257,18 @@ export default function WorkHomeSpace() {
               <p className="max-w-[31.25rem]">
                 Home dashboard is designed for users to view and track all of
                 projects. There are many important information details in this
-                screen and features which can help users to do a quick editing
-                or adding information. As the solution, I presented the
-                information in six layout tabs where user can access each of
-                information and perform function on it. 
+                screen and features which can help users to do editing
+                or monitor the project. 
               </p>
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-16">
             <div>
-              <HeaderTitle>Concept</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                The concept on the dashboard it to have a currated tab to
-                manage, track, and monitor the project. The tab designed
+                As the solution, I presented the information in six multi-level tab where
+                user can access each of tab and perform function on it. The tab designed and function currated
                 following the task-flow for project manager to track the
-                progress of the project and have a quick editing on the tab.
+                progress of the project and apply necessary task function.
               </p>
             </div>
           </div>
