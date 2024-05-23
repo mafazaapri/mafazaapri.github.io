@@ -25,7 +25,7 @@ const Homepage = () => {
               <br />
               visuals that
             </span>
-            <br />
+    
             <span className="font-neuton italic">make sense</span>
             <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
           </div>
