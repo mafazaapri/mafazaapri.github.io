@@ -285,14 +285,10 @@ export default function WorkHomeSpace() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
             <div>
-              <HeaderTitle>Vision Board</HeaderTitle>
+              <HeaderTitle>Create profile</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                One of the crucial feature in the platform is vision board,
-                vision board act like a moodboard where architects can create
-                and collect inspiration in one space, they also able to invite
-                client to collaborate on the vision board. Features such as
-                upload, view, comment and delete are available for user to
-                interact with.
+                The first touchpoint with the system is the user registration and sign-up process. 
+                By filling out the form, users will be considered part of the team and invited to create a project.
               </p>
             </div>
           </div>
