@@ -255,20 +255,19 @@ export default function WorkHomeSpace() {
             <div>
               <HeaderTitle>Dashboard</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                Home dashboard is designed for users to view and track all of
-                projects. There are many important information details in this
-                screen and features which can help users to do editing
-                or monitor the project. 
+                The home dashboard is designed for users to view and track all their projects. 
+                This screen displays critical information and offers features that assist users 
+                in editing or monitoring their projects. 
               </p>
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-16">
             <div>
               <p className="max-w-[31.25rem]">
-                As the solution, I presented the information in six multi-level tab where
-                user can access each of tab and perform function on it. The tab designed and function currated
-                following the task-flow for project manager to track the
-                progress of the project and apply necessary task function.
+                To streamline this process, I organized the information into six multi-level 
+                tabs, allowing users to access each tab and perform specific functions. 
+                The tabs are designed and curated based on the task flow of project managers, 
+                enabling them to track project progress and apply necessary tasks efficiently.
               </p>
             </div>
           </div>
@@ -311,12 +310,12 @@ export default function WorkHomeSpace() {
             <div>
               <HeaderTitle>Vision Board</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                One of the essential feature in the platform is vision board,
-                vision board act like a moodboard where architects can create
-                and collect inspiration in one space, they also able to invite
-                member to collaborate on the vision board. Features such as
-                upload, view, comment and delete are available for user to
-                interact with.
+                During the discovery phase, we identified a crucial feature of the platform: the vision 
+                board, which facilitates collaboration between architects and project managers. 
+                Similar to a mood board, the vision board allows architects to create and 
+                collect inspiration in one space. They can also invite team members and project 
+                managers to collaborate. Users have the ability to upload, view, comment on, 
+                and delete content, enhancing their interactive experience.
               </p>
             </div>
           </div>
