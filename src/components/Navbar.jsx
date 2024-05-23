@@ -59,7 +59,7 @@ export default function Navbar({
             <div className="font-matter font-medium text-4xl mt-16">
               <div className="mb-3">Work</div>
               <div className="mb-3">About</div>
-              <div>Contact</div>
+              <div>My resume</div>
             </div>
 
             <div className="mt-32 font-matter font-medium">
