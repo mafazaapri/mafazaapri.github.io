@@ -234,7 +234,8 @@ export default function WorkHomeSpace() {
                 have used previously. In order to have a blueprint I
                 conceptualized the dashboard by studying their file material
                 such as proposal, quote to client, as well as learning the
-                interaction with the platform they used for the project.
+                interaction with the platform they used for the project. Below are multiple 
+                screenshots of platform they used to create a proposal.
               </p>
             </div>
           </div>
