@@ -63,8 +63,7 @@ const Homepage = () => {
             <Work
               title="Home + Space"
               imgName="homespace-homepage.png"
-              description="Enhancing collaboration platform within the architectures
-              industry"
+              description="Enhancing collaboration platforms within the architecture industry"
               goToUrl="/work/home-space"
               imgCoverName="bg-cover-home-space.png"
             />
