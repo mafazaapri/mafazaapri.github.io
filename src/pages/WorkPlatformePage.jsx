@@ -146,7 +146,7 @@ export default function WorkPlatformePage() {
             </div>
           </div>
           <div className="bg-[#FFE2CD] px-14 py-16 flex justify-center items-center mb-14">
-            <video width="1041" height="531" controls> 
+            <video autoplay loop muted preload="auto" width="1041" height="531" controls> 
   <source src="/img/Platforme-6610-vid.mp4" type="video/mp4" /> 
   Your browser does not support the video tag. 
 </video>
