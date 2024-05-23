@@ -333,10 +333,9 @@ export default function WorkHomeSpace() {
             <div>
               <HeaderTitle>Product Catalog</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                To replace traditional book product catalog, the new platform
-                allowed the team to input database of product and easily added
-                to any project. User able to add product image, write
-                description, and create product category.
+                To replace the traditional book product catalog, I designed screens that enable the team to input a product database. 
+                As a result, users can easily add products to any project. Additionally, users have the flexibility 
+                to add product images, write descriptions, and remove products.
               </p>
             </div>
           </div>
