@@ -251,6 +251,19 @@ export default function WorkHomeSpace() {
               <img src="/img/home-space-old-design-4.png" />
             </div>
           </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
+            <div>
+              <HeaderTitle>Dashboard</HeaderTitle>
+              <p className="max-w-[31.25rem]">
+                Home dashboard is designed for users to view and track all of
+                projects. There are many important information details in this
+                screen and features which can help users to do a quick editing
+                or adding information. As the solution, I presented the
+                information in six layout tabs where user can access each of
+                information and perform function on it. 
+              </p>
+            </div>
+          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-16">
             <div>
               <HeaderTitle>Concept</HeaderTitle>
@@ -268,19 +281,7 @@ export default function WorkHomeSpace() {
               className="rounded-lg max-h-[19.375rem] w-auto"
             />
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
-            <div>
-              <HeaderTitle>Dashboard</HeaderTitle>
-              <p className="max-w-[31.25rem]">
-                Home dashboard is designed for users to view and track all of
-                projects. There are many important information details in this
-                screen and features which can help users to do a quick editing
-                or adding information. As the solution, I presented the
-                information in six layout tabs where user can access each of
-                information and perform function on it. 
-              </p>
-            </div>
-          </div>
+          
           <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-20">
             <img
               src="/img/home-space-project-details.png"
