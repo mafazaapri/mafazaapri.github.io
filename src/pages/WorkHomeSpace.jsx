@@ -277,15 +277,14 @@ export default function WorkHomeSpace() {
           </div>
           <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-20">
             <img
-              src="/img/home-space-status-page.png"
-              className="rounded-lg max-h-[19.375rem] w-auto"
-            />
-          </div>
-          
-          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-20">
-            <img
               src="/img/home-space-project-details.png"
               className="rounded-lg max-h-[25rem] w-auto"
+            />
+          </div>
+          <div className="bg-[#D6DAE2] px-14 py-16 flex justify-center items-center mb-20">
+            <img
+              src="/img/home-space-status-page.png"
+              className="rounded-lg max-h-[19.375rem] w-auto"
             />
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-14">
