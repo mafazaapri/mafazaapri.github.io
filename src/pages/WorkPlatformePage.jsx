@@ -254,7 +254,7 @@ export default function WorkPlatformePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-14">
             <div>
-              <HeaderTitle>Class Schedule</HeaderTitle>
+              <HeaderTitle>Solution</HeaderTitle>
               <p className="max-w-[31.25rem]">
                 After observing comparative study and understanding the scale of
                 available classes on the schedule. I designed a schedule to fit
