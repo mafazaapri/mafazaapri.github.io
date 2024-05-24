@@ -87,11 +87,11 @@ export default function WorkBigGameGolf() {
             <div>
               <HeaderTitle>Module #01 Create New Game</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                The first module covered personalized home screen allowing user
-                to access shortcut to functions and ability to create a new
-                game. The home screen allows users to track the game, schedule
-                upcoming game, send invitations, assign rosters, and manage
-                their wallet.
+                The first module covered is the home screen. This screen is designed to be personalized, 
+                allowing users to access shortcuts to functions based on priority levels, such as tracking games, 
+                scheduling upcoming games, sending invitations, assigning rosters, and managing their wallets. 
+                At this stage, I defined the design system for the entire set of screens, incorporating the brand's 
+                identity throughout.
               </p>
             </div>
           </div>
@@ -169,8 +169,9 @@ export default function WorkBigGameGolf() {
             <div>
               <HeaderTitle>MODULE #02 FIND GAME</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                Scorecard enable users to check in real time score and depending
-                on who is the user, a manager can post score to other players. 
+                The scorecard enables users to check scores in real-time, and managers can post scores for other players. 
+                The challenge with this screen was to present important information, such as scores, in a visible way
+                within limited space. I used multiple dropdowns to refine the information and ensure it is readable for users.
               </p>
             </div>
           </div>
