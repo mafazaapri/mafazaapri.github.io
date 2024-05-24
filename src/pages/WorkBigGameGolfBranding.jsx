@@ -41,16 +41,16 @@ export default function WorkBigGameGolfBranding() {
               <p className="max-w-[40.625rem]">
                 As the solely designer for this project I am responsible to
                 ideate new concept for logo design and visual identity,
-                including color system, typography and visual direction.
+                including color system, typography and visual direction. This case study specifically showing the process behind new brand identitiy for Big Game Golf. 
               </p>
             </div>
           </div>
           <div>
-            <HeaderTitle>Navigating Direction</HeaderTitle>
+            <HeaderTitle>Brainstorming</HeaderTitle>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
               <div>
                 <p className="max-w-[40.625rem]">
-                  As part of design sprint me and my team each of us populated
+                  I work closely with my team to do brainstorming starting from currating
                   moodboard of how we envision the new logo concept and present
                   it to the internal team. The purpose was to see each other's
                   perspective and collectively put down ideas that we feel align
