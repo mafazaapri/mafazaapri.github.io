@@ -97,14 +97,12 @@ export default function WorkBigGameGolfBranding() {
               <HeaderTitle>Brainstorming</HeaderTitle>
 
               <p className="max-w-[40.625rem]">
-                The next step is I start to sketch and put my ideas together, I
-                ideate the new concept has to represent sports industry without
-                being iconic, look playful, and simple. I wanted to design
-                something simple yet memorable for users to notice. My decision
-                was to use elements that represent sports such as circle and
-                flag shape. Below was my first draft with different concepts
-                and i presented it to my internal team which later on we decided
-                to focus on simplier version.
+                The next step was to start sketching and putting my ideas together. 
+                I aimed to create a new concept that represents the sports industry without being overly iconic, 
+                looking playful yet simple. I wanted to design something that is both straightforward and memorable for users. 
+                I decided to use elements that represent sports, such as circles and flag shapes. 
+                Below is my first draft with different concepts, which I presented to my internal team. 
+          
               </p>
             </div>
           </div>
@@ -118,14 +116,14 @@ export default function WorkBigGameGolfBranding() {
         <Seperator />
         <section>
           <div>
-            <HeaderTitle>Module 01</HeaderTitle>
+            <HeaderTitle>Iteration</HeaderTitle>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 lg:justify-items-end mb-16">
               <div>
                 <p className="max-w-[40.625rem]">
                   After curated few concept me and my team ready to present our
                   first draft to stakeholders. While we do receive positive
-                  feedback unfortunately they are not hundred percent certain on
+                  feedback unfortunately the stakeholder are not certain on
                   the concept we presented. We took note on important things and
                   aspect to consider and decided to come back with second draft
                   of concept.
@@ -140,17 +138,15 @@ export default function WorkBigGameGolfBranding() {
             </div>
           </div>
           <div>
-            <HeaderTitle>First Iteration</HeaderTitle>
+            <HeaderTitle>Taking the feedback</HeaderTitle>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
               <div>
                 <p className="max-w-[40.625rem]">
-                  After receiving feedback I start working on the first
-                  iteration, I get to understand more about the direction and
-                  theme they like to approach. I focus on creating concept with
-                  speed or motion symbol which represent sports in general and
-                  keep the modern look in it. Below are some trial that I
-                  illustrate and also presenting the concept in different color
-                  shade of green.
+                  Based on the feedback from the first draft, I started working on the first iteration. 
+                  I gained a better understanding of the direction and theme they wanted to pursue. 
+                  I focused on creating concepts with symbols of speed or motion to represent sports 
+                  in general while maintaining a modern look. Below are some trials that I illustrated, 
+                  presenting the concept in different shades of green.
                 </p>
               </div>
             </div>
