@@ -94,7 +94,7 @@ export default function WorkBigGameGolfBranding() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
             <div>
-              <HeaderTitle>Navigating Direction</HeaderTitle>
+              <HeaderTitle>Brainstorming</HeaderTitle>
 
               <p className="max-w-[40.625rem]">
                 The next step is I start to sketch and put my ideas together, I
