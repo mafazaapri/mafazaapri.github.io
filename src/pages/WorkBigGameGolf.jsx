@@ -72,8 +72,8 @@ export default function WorkBigGameGolf() {
                 it required knowledge of understanding the whole concept of
                 product. With the time constraint I have to be fed in with
                 everything all at once and fill in the gap as we progress in the
-                project. <br /> <br /> I kicked off the project with
-                understanding what’s needed to be done.
+                project. <br /> <br /> For the purpose of the case study below are few of modules 
+                that I covered on this project.
               </p>
             </div>
             <div>
