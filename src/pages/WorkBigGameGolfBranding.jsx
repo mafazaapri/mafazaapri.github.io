@@ -94,7 +94,7 @@ export default function WorkBigGameGolfBranding() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
             <div>
-              <HeaderTitle>Brainstorming</HeaderTitle>
+              <HeaderTitle>First draft</HeaderTitle>
 
               <p className="max-w-[40.625rem]">
                 The next step was to start sketching and putting my ideas together. 
@@ -166,15 +166,12 @@ export default function WorkBigGameGolfBranding() {
         <section>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7 mb-16">
             <div>
-              <HeaderTitle>Final Look</HeaderTitle>
+              <HeaderTitle>Final concept</HeaderTitle>
 
               <p className="max-w-[40.625rem]">
-                After curated few concept me and my team ready to present our
-                first draft to stakeholders. While we do receive positive
-                feedback unfortunately they are not hundred percent certain on
-                the concept we presented. We took note on important things and
-                aspect to consider and decided to come back with second draft of
-                concept.
+                The final design was developed through multiple iterations and based on feedback both internally and externally. 
+                The concept features a flying ball at high speed, symbolizing the sports industry. 
+                The effect of speed represents the power and strength of a major golf game.
               </p>
             </div>
           </div>
