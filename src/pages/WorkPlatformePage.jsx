@@ -297,12 +297,10 @@ export default function WorkPlatformePage() {
             <div className="max-w-[31.25rem]">
               <HeaderTitle>Final Design</HeaderTitle>
               <p>
-                One of the main takeaways mentioned during the discovery phase
-                was to include a class schedule as part of the website. The
-                class schedule will automatically rotate every two weeks,
-                allowing members to view the available classes. The schedule
-                will provide information such as the class program, instructor's
-                name, duration, and timing.
+                The final design consisted of a bilingual, 
+                three-page website. It aimed to be both informative and a touchpoint 
+                for the sales system by promoting services. I integrated Platforme's 
+                branding system into the final design and ensured the website's feasibility.
               </p>
             </div>
             <div>
@@ -338,12 +336,7 @@ export default function WorkPlatformePage() {
             <div>
               <HeaderTitle>Mobile Responsive</HeaderTitle>
               <p className="max-w-[31.25rem]">
-                One of the main takeaways mentioned during the discovery phase
-                was to include a class schedule as part of the website. The
-                class schedule will automatically rotate every two weeks,
-                allowing members to view the available classes. The schedule
-                will provide information such as the class program, instructor's
-                name, duration, and timing.
+               In this project, I was also responsible for developing the mobile design and implementing the necessary UI elements to ensure they were well-adapted for mobile devices.
               </p>
             </div>
           </div>
