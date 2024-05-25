@@ -15,9 +15,7 @@ export default function Work({
     >
       <div className="pr-5">
         <div className="text-4xl font-medium mb-5">{title}</div>
-        <div className="max-w-sm mb-5">
-          Redesigning an experience of connecting and searching legal service.
-        </div>
+        <div className="max-w-sm mb-5">{description}</div>
         <div className="underline font-medium font-matter underline-offset-4 mb-14">
           <Link to={goToUrl}>Read case study</Link>
         </div>

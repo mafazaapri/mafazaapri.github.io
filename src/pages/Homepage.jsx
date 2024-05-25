@@ -94,16 +94,16 @@ const Homepage = () => {
             <Work
               title="Big Game Golf Branding"
               imgName="bgg-branding-homepage.png"
-              description="Redesigning an experience of connecting and searching legal
-              service"
+              description="Developing brand identity for 
+              Big Game Golf"
               goToUrl="/work/big-game-golf-branding"
               imgCoverName="bg-cover-big-game-golf-branding.png"
             />
             <Work
               title="Rojorganic"
               imgName="rojorganic-branding-homepage.png"
-              description="Enhancing collaboration platform within the architectures
-              industry"
+              description="Creating a brand packaging for organic 
+              beauty product"
               goToUrl="/work/rojorganics"
               imgCoverName="bg-cover-rojorganic.png"
             />
