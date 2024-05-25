@@ -2,6 +2,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faXmark } from "@fortawesome/free-solid-svg-icons";
+import NavItem from "./NavItem";
 
 export default function Navbar({
   displayBlackScreen,
@@ -57,27 +58,26 @@ export default function Navbar({
             </div>
 
             <div className="font-matter font-medium text-4xl mt-16">
-              <div className="mb-3">Work</div>
-              <div className="mb-3">About</div>
-              <div>My resume</div>
-            </div>
-
-            <div className="mt-32 font-matter font-medium">
-              <div className="uppercase mb-4 text-sm">Social</div>
-              <div className="text-xl grid gap-3">
-                <div className="flex items-center">
-                  <img
-                    src="/img/linkedin.png"
-                    className="w-5 inline-block mr-2"
-                  />
-                  LinkedIn
-                </div>
-                <div className="flex items-center">
-                  <img
-                    src="/img/instagram.png"
-                    className="w-5 inline-block mr-2"
-                  />
-                  Instagram
+              <NavItem title="Work" url="/" />
+              <NavItem title="About" url="#" />
+              <NavItem title="Resume" url="#" />
+              <div className="mt-32 font-matter font-medium">
+                <div className="uppercase mb-4 text-sm">Social</div>
+                <div className="text-xl grid gap-3">
+                  <div className="flex items-center">
+                    <img
+                      src="/img/linkedin.png"
+                      className="w-5 inline-block mr-2"
+                    />
+                    LinkedIn
+                  </div>
+                  <div className="flex items-center">
+                    <img
+                      src="/img/instagram.png"
+                      className="w-5 inline-block mr-2"
+                    />
+                    Instagram
+                  </div>
                 </div>
               </div>
             </div>
