@@ -37,6 +37,9 @@ export default function WorkPlatformePage() {
                 to share their health journey within the community.
               </p>
             </div>
+            <div>
+              <VisitButton url="https://platforme6610.com/" />
+            </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
