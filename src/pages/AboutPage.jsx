@@ -7,6 +7,6 @@ import ReadNext from "../components/ReadNext";
 import BggPoint from "./page_components/bgg/BggPoint";
 import Footer from "../components/Footer";
 
-export default function WorkBigGameGolf() {
+export default function AboutPage() {
   return (
     <>
