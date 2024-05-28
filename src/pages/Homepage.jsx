@@ -94,7 +94,7 @@ const Homepage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
               title="Big Game Golf Branding"
-              imgName="bgg-branding-homepage.png"
+              imgName="bgg-branding-home.png"
               description="Developing brand identity for 
               Big Game Golf"
               goToUrl="/work/big-game-golf-branding"
