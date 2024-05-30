@@ -24,7 +24,7 @@ const Homepage = () => {
             <span className="font-medium">
               I simply create
       <br />
-              visuals that
+              visual that
             
             <br />
            make sense</span>
