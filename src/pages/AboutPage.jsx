@@ -16,11 +16,15 @@ export default function AboutPage() {
          
        <div className="container">
         <section className="py-10">
-          <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
+          <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
-              I create
+              Hello 
               <br />
-              visuals that
+           I’m Mafaza, a multi-disciplinary designer based in Seattle. 
+              <br />
+                <span className="font-neuton italic"> I love to to talk about product-ideas and solving UX problem. </span>
+              <br />
+              Currently UX/UI Designer at  BeCurious Studio.
             </span>
             <br />
             <span className="font-neuton italic">make sense</span>
