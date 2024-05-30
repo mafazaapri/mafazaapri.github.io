@@ -4,14 +4,9 @@ import PageMetadata from "../components/PageMetadata";
 
 export default function AboutPage() {
   return (
-  <>
-
-     
-
-<p>about</p>
-  
-         
-    
-  </>
+    <>
+      <PageMetadata title="About" desc="About me" />
+      <div>About.</div>
+    </>
   );
 }
