@@ -12,7 +12,6 @@ export default function AboutPage() {
       />
   <HeaderImage
         imgCoverName="bg-cover-home-space.png"
-        imgName="homespace-homepage.png"
         className="lg:object-[50%_20%]"
       />
     
