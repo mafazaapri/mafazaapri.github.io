@@ -10,5 +10,6 @@ export default function AboutPage() {
         title="Big Game Golf"
         desc="Redesigning an experience of connecting and searching legal service"
       />
+  </>
   );
 }
