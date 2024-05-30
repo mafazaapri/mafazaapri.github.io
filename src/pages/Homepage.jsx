@@ -48,7 +48,7 @@ const Homepage = () => {
             Selected Works
           </StylishHeaderTitle>
           <p className="text-slate-400 mb-10">
-            Website / Mobile app / Sotware tool
+            Website / Mobile app / Web App
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
