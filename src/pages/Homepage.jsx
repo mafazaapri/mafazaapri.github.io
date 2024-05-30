@@ -11,7 +11,7 @@ const Homepage = () => {
   const [displayBlackScreen, hideBlackScreen] = useOutletContext();
 
   return (
-    <>
+
     <div className="bg-home-bg bg-repeat">
       <PageMetadata
         title="Mafaza Apri"
@@ -113,7 +113,7 @@ const Homepage = () => {
 </div>
       <Footer />
     
-        </>
+  
 
   );
 }
