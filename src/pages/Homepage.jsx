@@ -11,6 +11,7 @@ const Homepage = () => {
   const [displayBlackScreen, hideBlackScreen] = useOutletContext();
 
   return (
+    <>
     <div className="bg-home-bg bg-repeat">
       <PageMetadata
         title="Mafaza Apri"
@@ -107,10 +108,12 @@ const Homepage = () => {
               goToUrl="/work/rojorganics"
               imgCoverName="bg-cover-rojorganic.png"
             />
-  
+  </div>
         </section>
 </div>
       <Footer />
+    
+        </>
 
   );
 }
