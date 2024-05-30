@@ -21,7 +21,7 @@ const Homepage = () => {
         <section className="py-10">
           <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
-              I create
+              I simply create
       <br />
               visuals that
             
