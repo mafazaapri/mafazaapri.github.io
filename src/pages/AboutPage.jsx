@@ -14,37 +14,7 @@ export default function AboutPage() {
       />
   
          
-       <div className="container">
-        <section className="py-10">
-          <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
-            <span className="font-medium">
-              Hello 
-              <br />
-           I’m Mafaza, a multi-disciplinary designer based in Seattle. 
-              <br />
-                <span className="font-neuton italic"> I love to to talk about product-ideas and solving UX problem. </span>
-              <br />
-              Currently UX/UI Designer at  BeCurious Studio.
-            </span>
-            <br />
-            <span className="font-neuton italic">make sense</span>
-            <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
-          </div>
-          <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
-            <div className="text-start mb-5 lg:mb-0 lg:max-w-[28rem]">
-              Hi I’m Mafaza{" "}
-              <img src="/img/hand.png" className="w-6 inline-block" /> , with my
-              experience I specialize in crafting seamless digital experiences
-              for{" "}
-              <span className="font-neuton italic">
-                websites, apps, & brands.
-              </span>
-              <br />I believe that every product is unique, and so is the design
-              process.
-            </div>
-          </div>
-          </section>
-         </div>
+    
   </>
   );
 }
