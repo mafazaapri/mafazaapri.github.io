@@ -107,7 +107,7 @@ const Homepage = () => {
               goToUrl="/work/rojorganics"
               imgCoverName="bg-cover-rojorganic.png"
             />
-          </div>
+  
         </section>
 </div>
       <Footer />
