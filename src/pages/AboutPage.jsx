@@ -14,7 +14,7 @@ export default function AboutPage() {
         imgCoverName="bg-cover-home-space.png"
         className="lg:object-[50%_20%]"
       />
-    
+          <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
        <div className="container">
         <section className="py-10">
           <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
@@ -40,6 +40,8 @@ export default function AboutPage() {
               process.
             </div>
           </div>
+          </section>
+         </div>
     
   </>
   );
