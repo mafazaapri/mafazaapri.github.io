@@ -16,7 +16,7 @@ export default function AboutPage() {
          
        <div className="container">
         <section className="py-10">
-          <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
+          <div className="text-[1.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
               Hello 
               <br />
