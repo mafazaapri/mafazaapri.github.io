@@ -111,7 +111,7 @@ const Homepage = () => {
         </section>
 </div>
       <Footer />
-  </>
+
   );
 }
 
