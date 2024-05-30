@@ -113,6 +113,6 @@ const Homepage = () => {
       <Footer />
   </>
   );
-};
+}
 
 export default Homepage;
