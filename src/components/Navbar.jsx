@@ -58,7 +58,7 @@ export default function Navbar({
             </div>
 
             <div className="font-matter font-medium text-4xl mt-16">
-              <NavItem title="Check out my work here" url="/" />
+              <NavItem title="Work" url="/" />
               <NavItem title="About" url="/about" />
               <NavItem
                 title="Resume"
