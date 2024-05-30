@@ -58,10 +58,12 @@ export default function Navbar({
             </div>
 
             <div className="font-matter font-medium text-4xl mt-16">
-          
               <NavItem title="Check out my work here" url="/" />
-              <NavItem title="About" url="#" />
-              <NavItem title="Resume" url="https://www.dropbox.com/scl/fi/81ay4yid0axev5woiavf2/Mafaza-UXResume.pdf?rlkey=j8pik31m41iqfpz0bg6ouevst&st=wxwnvxy0&dl=0" />
+              <NavItem title="About" url="/about" />
+              <NavItem
+                title="Resume"
+                url="https://www.dropbox.com/scl/fi/81ay4yid0axev5woiavf2/Mafaza-UXResume.pdf?rlkey=j8pik31m41iqfpz0bg6ouevst&st=wxwnvxy0&dl=0"
+              />
               <div className="mt-32 font-matter font-medium">
                 <div className="uppercase mb-4 text-sm">Social</div>
                 <div className="text-xl grid gap-3">

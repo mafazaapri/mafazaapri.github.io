@@ -11,6 +11,7 @@ import WorkBigGameGolf from "./pages/WorkBigGameGolf.jsx";
 import WorkBigGameGolfBranding from "./pages/WorkBigGameGolfBranding.jsx";
 import NotFoundPage from "./404.jsx";
 import Homepage from "./pages/Homepage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
 
 const router = createHashRouter([
   {
@@ -43,6 +44,12 @@ const router = createHashRouter([
         path: "/work/big-game-golf-branding",
         element: <WorkBigGameGolfBranding />,
       },
+
+      {
+        path: "/about",
+        element: <AboutPage />,
+      },
+
       {
         path: "*",
         element: <NotFoundPage />,
