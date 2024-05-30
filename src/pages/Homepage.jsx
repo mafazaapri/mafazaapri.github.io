@@ -22,11 +22,11 @@ const Homepage = () => {
           <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
               I create
-      
+      <br />
               visuals that
-            </span>
+            
             <br />
-            <span className="font-neuton italic">make sense</span>
+           make sense</span>
             <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
           </div>
           <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
