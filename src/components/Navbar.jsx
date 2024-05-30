@@ -58,7 +58,7 @@ export default function Navbar({
             </div>
 
             <div className="font-matter font-medium text-4xl mt-16">
-              <NavItem title="Work" url="/" />
+              <NavItem <p> Hello</p> </NavItem>title="Work" url="/" />
               <NavItem title="About" url="#" />
               <NavItem title="Resume" url="https://www.dropbox.com/scl/fi/81ay4yid0axev5woiavf2/Mafaza-UXResume.pdf?rlkey=j8pik31m41iqfpz0bg6ouevst&st=wxwnvxy0&dl=0" />
               <div className="mt-32 font-matter font-medium">
