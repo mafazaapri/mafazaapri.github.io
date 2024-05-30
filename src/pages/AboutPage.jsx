@@ -6,13 +6,12 @@ export default function AboutPage() {
   return (
   <>
 
-     <PageMetadata
-        title="Big Game Golf"
-        desc="Redesigning an experience of connecting and searching legal service"
-      />
-  <HeaderImage
-        imgCoverName="bg-cover-home-space.png"
-        className="lg:object-[50%_20%]"
+     
+
+    <div className="bg-home-bg bg-repeat">
+      <PageMetadata
+        title="Mafaza Apri"
+        desc="UI/UX Designer based in Seattle"
       />
          
        <div className="container">
@@ -42,7 +41,7 @@ export default function AboutPage() {
           </div>
           </section>
          </div>
-    
+    </div>
   </>
   );
 }
