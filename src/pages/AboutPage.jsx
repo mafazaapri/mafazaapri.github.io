@@ -8,10 +8,14 @@ export default function AboutPage() {
 
      
 
-    <div className="bg-home-bg bg-repeat">
-      <PageMetadata
-        title="Mafaza Apri"
-        desc="UI/UX Designer based in Seattle"
+    <PageMetadata
+        title="Big Game Golf"
+        desc="Redesigning an experience of connecting and searching legal service"
+      />
+      <HeaderImage
+        imgCoverName="bg-cover-big-game-golf.png"
+        imgName="bgg-page.png"
+        className="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       />
          
        <div className="container">
