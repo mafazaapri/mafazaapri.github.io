@@ -8,10 +8,7 @@ export default function AboutPage() {
 
      
 
-    <PageMetadata
-        title="Big Game Golf"
-        desc="Redesigning an experience of connecting and searching legal service"
-      />
+<p>about</p>
   
          
     
