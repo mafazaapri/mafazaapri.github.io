@@ -19,7 +19,7 @@ const Homepage = () => {
       <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
       <div className="container">
         <section className="py-10">
-          <div className="text-[2.5rem] lg:text-[6.25rem] text-start leading-none lg-leading-[6rem] mr mt-16 lg:mt-40">
+          <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
               I simply create
       <br />
@@ -110,7 +110,7 @@ const Homepage = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      <Footer />;
   </>
   );
 };
