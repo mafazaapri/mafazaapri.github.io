@@ -11,7 +11,6 @@ const Homepage = () => {
   const [displayBlackScreen, hideBlackScreen] = useOutletContext();
 
   return (
-
     <div className="bg-home-bg bg-repeat">
       <PageMetadata
         title="Mafaza Apri"
@@ -23,11 +22,11 @@ const Homepage = () => {
           <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
               I simply create
-      <br />
+              <br />
               visual that
-            
-            <br />
-           make sense</span>
+              <br />
+              make sense
+            </span>
             <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
           </div>
           <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
@@ -48,9 +47,7 @@ const Homepage = () => {
           <StylishHeaderTitle className="mb-6">
             Selected Works
           </StylishHeaderTitle>
-          <p className="text-slate-400 mb-10">
-            Website / Mobile app / Web App
-          </p>
+          <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Work
@@ -108,14 +105,12 @@ const Homepage = () => {
               goToUrl="/work/rojorganics"
               imgCoverName="bg-cover-rojorganic.png"
             />
-  </div>
+          </div>
         </section>
-</div>
+      </div>
       <Footer />
-    
-  
-
+    </div>
   );
-}
+};
 
 export default Homepage;
