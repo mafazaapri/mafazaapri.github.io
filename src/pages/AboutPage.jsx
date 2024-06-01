@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderImage from "../components/HeaderImage";
 import PageMetadata from "../components/PageMetadata";
+import StylishHeaderTitle from "../components/StylishHeaderTitle";
 
 export default function AboutPage() {
   return (
