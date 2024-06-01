@@ -7,6 +7,8 @@ export default function AboutPage() {
     <>
       <PageMetadata title="About" desc="About me" />
       <div>About.</div>
+         <div className="container">
+        <section className="py-10">
        <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
             <div className="text-start mb-5 lg:mb-0 lg:max-w-[28rem]">
               Hi I’m Mafaza{" "}
@@ -20,6 +22,8 @@ export default function AboutPage() {
               process.
             </div>
           </div>
+          </section>
+           </div>
     </>
   );
 }
