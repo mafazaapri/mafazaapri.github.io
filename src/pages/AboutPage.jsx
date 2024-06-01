@@ -16,16 +16,12 @@ export default function AboutPage() {
             Hello{" "}
               <img src="/img/hand.png" className="w-6 inline-block" /> , 
               <br />I’m Mafaza, a multi-disciplinary designer based {" "}
-              <br />
+     
               in Seattle. I love to to talk about product-ideas 
-              <br />
+        
               and solving UX problem. Currently UX/UI Designer at  BeCurious Studio.
               </span>
-              <span className="font-neuton italic">
-                websites, apps, & brands.
-              </span>
-              <br />I believe that every product is unique, and so is the design
-              process.
+              
             </div>
           </div>
           </section>
