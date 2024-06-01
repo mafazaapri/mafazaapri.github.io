@@ -32,6 +32,7 @@ export default function AboutPage() {
           <StylishHeaderTitle className="mb-6">
          Small lil details
           </StylishHeaderTitle>
+               <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
           </section>
      
     </>
