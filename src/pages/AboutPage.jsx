@@ -36,6 +36,9 @@ export default function AboutPage() {
           </StylishHeaderTitle>
                <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
           </section>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <p> About me </p>
+            </div>
      
     </>
   );
