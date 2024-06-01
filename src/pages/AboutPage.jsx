@@ -14,7 +14,7 @@ export default function AboutPage() {
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[2rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
             Hello{" "}
-              <img src="/img/hand.png" className="w-6 inline-block" /> , 
+              <img src="/img/profile-pic.png" className="w-6 inline-block" /> , 
               <br />I’m Mafaza, a multi-disciplinary designer based {" "}
      
               in Seattle. I love to to talk about product-ideas 
