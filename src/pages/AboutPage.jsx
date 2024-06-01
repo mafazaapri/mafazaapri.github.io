@@ -9,6 +9,7 @@ export default function AboutPage() {
     <>
       <PageMetadata title="About" desc="About me" />
       <div>About.</div>
+       <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
          <div className="container">
         <section className="py-10">
        <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
