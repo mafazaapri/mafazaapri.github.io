@@ -28,7 +28,7 @@ export default function AboutPage() {
             </div>
           </div>
           </section>
-           </div>
+         
 
         <section className="py-10">
           <StylishHeaderTitle className="mb-6">
@@ -39,6 +39,7 @@ export default function AboutPage() {
             <p> About me </p>
             </div>
           </section>
+             </div>
     
      
     </>
