@@ -34,8 +34,16 @@ export default function AboutPage() {
           <StylishHeaderTitle className="mb-6">
          Small lil details
           </StylishHeaderTitle>
-               <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
-           <p>I love working in a diverse environment. I believe that collaborating with people from different backgrounds will help me grow and excel in my career.</p>
+           
+           <p> I love working in a diverse environment. I believe that collaborating with people from different <br />
+             backgrounds will help me grow and excel in my career.</p>
+          <br/>
+          <p>My favorite mobile app is Digit. The app offers a seamless experience, with each element 
+            <br/>
+            thoughtfully designed to help users achieve their goals effortlessly</p>
+          <br/>
+          <p>When I'm not working, I enjoy outdoor activities and visiting local farms around Washington. 
+I have a great love for alpacas.</p>
           </section>
              </div>
     
