@@ -34,6 +34,7 @@ export default function AboutPage() {
           <StylishHeaderTitle className="mb-6">
          Small lil details
           </StylishHeaderTitle>
+          <br/>
            
            <p> I love working in a diverse environment. I believe that collaborating with people from different <br />
              backgrounds will help me grow and excel in my career.</p>
