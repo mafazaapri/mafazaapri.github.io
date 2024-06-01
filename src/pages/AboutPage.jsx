@@ -14,7 +14,7 @@ export default function AboutPage() {
         <section className="py-10">
        <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
             
-                  <div className="text-[2.5rem] lg:text-[4.25rem] text-start line-height: 1.25; lg-leading-[2rem] mr mt-16 lg:mt-40">
+                  <div className="text-[2.5rem] lg:text-[4.25rem] text-start line-height: 1; lg-leading-[2rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
             Hello{" "}
               <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
