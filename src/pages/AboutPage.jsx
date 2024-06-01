@@ -28,10 +28,11 @@ export default function AboutPage() {
           </section>
            </div>
 
-   
+        <section className="py-10">
           <StylishHeaderTitle className="mb-6">
          Small lil details
           </StylishHeaderTitle>
+          </section>
      
     </>
   );
