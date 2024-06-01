@@ -17,7 +17,7 @@ export default function AboutPage() {
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[2rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
             Hello{" "}
-              <img src="/img/profile-pic.png" className="w-18 inline-block ms-2" /> 
+              <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
               <br />I’m Mafaza, a multi-disciplinary designer based {" "}
      
               in Seattle. I love to to talk about product-ideas 
@@ -35,10 +35,11 @@ export default function AboutPage() {
          Small lil details
           </StylishHeaderTitle>
                <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
-          </section>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <p> About me </p>
             </div>
+          </section>
+    
      
     </>
   );
