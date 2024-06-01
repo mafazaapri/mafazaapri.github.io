@@ -15,9 +15,11 @@ export default function AboutPage() {
             <span className="font-medium">
             Hello{" "}
               <img src="/img/hand.png" className="w-6 inline-block" /> , 
-              <br />with my
-              experience I specialize in crafting seamless digital experiences
-              for{" "}
+              <br />I’m Mafaza, a multi-disciplinary designer based {" "}
+              <br />
+              in Seattle. I love to to talk about product-ideas 
+              <br />
+              and solving UX problem. Currently UX/UI Designer at  BeCurious Studio.
               </span>
               <span className="font-neuton italic">
                 websites, apps, & brands.
