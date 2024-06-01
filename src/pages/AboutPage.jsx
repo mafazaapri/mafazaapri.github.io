@@ -35,9 +35,15 @@ export default function AboutPage() {
          Small lil details
           </StylishHeaderTitle>
                <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <p> About me </p>
-            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-7">
+              <div className="flex">
+                <DiscoveryPoint>
+                  Attorneys rely on the website to be their point of sale when
+                  advertising their services to the client. It is important for
+                  the website to be designed align with the purpose.
+                </DiscoveryPoint>
+              </div>
+              </div>
           </section>
              </div>
     
