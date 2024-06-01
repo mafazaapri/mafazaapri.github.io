@@ -35,7 +35,7 @@ export default function AboutPage() {
          Small lil details
           </StylishHeaderTitle>
                <p className="text-slate-400 mb-10">Website / Mobile app / Web App</p>
-           
+           <p>I love working in a diverse environment. I believe that collaborating with people from different backgrounds will help me grow and excel in my career.</p>
           </section>
              </div>
     
