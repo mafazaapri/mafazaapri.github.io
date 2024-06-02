@@ -70,14 +70,14 @@ export default function Navbar({
                   <div className="flex items-center">
                     <img
                       src="/img/linkedin.png"
-                      className="w-5 inline-block mr-2"
+                      className="w-5 inline-block mr-2" url="https://www.linkedin.com/in/mafazaapri/0"
                     />
                     LinkedIn
                   </div>
                   <div className="flex items-center">
                     <img
                       src="/img/instagram.png"
-                      className="w-5 inline-block mr-2"
+                      className="w-5 inline-block mr-2" 
                     />
                     Instagram
                   </div>
