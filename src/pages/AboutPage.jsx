@@ -20,7 +20,7 @@ export default function AboutPage() {
        
        </span>
                        
-                    <br />
+                  
                     <span className="font-small">
 I'm Mafaza, UX/UI designer based in Seattle. 
                       <br/>
