@@ -12,12 +12,14 @@ export default function AboutPage() {
        <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
          <div className="container">
         <section className="py-10">
-       <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
+      
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
+              <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
+              <br/>
             Hello{" "}
-            I’m Mafaza. {" "}  <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
+            I’m Mafaza. {" "}  
        </span>
                        
                     <br />
