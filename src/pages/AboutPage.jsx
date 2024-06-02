@@ -27,7 +27,7 @@ I'm Mafaza, UX/UI designer based <br/> in Seattle.
                       
                       I enjoy discussing product-ideas 
         
-             <br/> & solving problem through design <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
+             <br/> & solving problem through design <img src="/img/profile-pic.png" className="w-18 inline-block ms-2" />   </span>    
      
           </div>
           </section>
