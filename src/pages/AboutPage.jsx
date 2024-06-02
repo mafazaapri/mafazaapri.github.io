@@ -21,9 +21,9 @@ export default function AboutPage() {
             <span className="font-medium">
             Hello{" "}, I'm Mafaza
               <br/>
-       </span>
+    
              
- I enjoy discussing product-ideas 
+ I enjoy discussing product-ideas    </span>
         
              <br/>  <span className="font-neuton italic"> & solving problems through design </span> 
                       <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />    
