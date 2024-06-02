@@ -26,7 +26,7 @@ I'm Mafaza, UX/UI designer based in Seattle.
                       <br/>
                       I enjoy discussing product-ideas 
         
-              and solving UX problem through design  </span>    
+              & solving UX problem through design  </span>    
      
           </div>
           </section>
