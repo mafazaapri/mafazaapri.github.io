@@ -57,6 +57,7 @@ I have a great love for alpacas          <img src="/img/alpaca.png" className="w
              </div>
       
     </div>
+      <footer />
  
     </>
   );
