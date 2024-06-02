@@ -36,10 +36,10 @@ I'm a UX/UI designer based in Seattle.
 
         <section className="py-10">
           <StylishHeaderTitle className="mb-6">
-         Small lil details
+  little details
           </StylishHeaderTitle>
           <br/>
-           
+           <p> Currently I'm a UX designer at BeCurious Studio.</p> <br/>
            <p> I love working in a diverse environment. I believe that collaborating with people from different <br />
              backgrounds will help me grow and excel in my career.</p>
           <br/>
@@ -47,7 +47,7 @@ I'm a UX/UI designer based in Seattle.
             <br/>
             thoughtfully designed to help users achieve their goals effortlessly</p>
           <br/>
-          <p>When I'm not working, I enjoy outdoor activities and visiting local farms around Washington. 
+          <p>When I'm not working, I enjoy outdoor activities and visiting local farms around Washington. <br/>
 I have a great love for alpacas.</p>
           </section>
              </div>
