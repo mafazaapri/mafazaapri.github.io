@@ -10,7 +10,7 @@ import Blob from "../assets/blob.svg?react";
 export default function AboutPage() {
   return (
     <>
-       <div className="bg-home-bg bg-repeat">
+       <div className="bg-[#000000]">
       <PageMetadata title="About" desc="About me" />
 
        <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
