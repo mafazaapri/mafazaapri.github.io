@@ -18,7 +18,7 @@ export default function AboutPage() {
             <span className="font-medium">
             Hello{" "}
               <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
-              <br />I’m Mafaza, you can call me Faza. {" "}
+              I’m Mafaza. {" "}
        </span>
                        
                     <br />
