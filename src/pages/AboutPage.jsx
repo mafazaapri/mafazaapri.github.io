@@ -15,17 +15,18 @@ export default function AboutPage() {
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
-            Hello{" "}
-            I’m Mafaza, {" "}  
+            Hello{" "}  <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
+              <br/>
+       
        </span>
                        
                     <br />
                     <span className="font-small">
-I'm a UX/UI designer based in Seattle. 
+I'm Mafaza, UX/UI designer based in Seattle. 
                       <br/>
                       I enjoy discussing product-ideas 
         
-              and solving UX problem through design <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
+              and solving UX problem through design  </span>    
      
           </div>
           </section>
@@ -36,7 +37,7 @@ I'm a UX/UI designer based in Seattle.
   little details
           </StylishHeaderTitle>
           <br/>
-            Currently I'm a UX designer at BeCurious Studio where I collaborate with PM, stakeholders, <br/> and team of designers to help clients achieve their goal <br/><br/>
+            Currently I'm a UX designer at BeCurious Studio where I collaborate with PM, stakeholders, <br/> and team of designers to help clients achieve their goal <img src="/img/sprinkle.png" className="w-8 inline-block ms-2" /> <br/><br/>
          I love working in a diverse environment. I believe that collaborating with people from different <br />
              backgrounds will help me grow and excel in my career.   <img src="/img/plant.png" className="w-8 inline-block ms-2" /> 
           <br/>
