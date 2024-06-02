@@ -25,7 +25,7 @@ const Homepage = () => {
               <br />
               visual that
        
-              make sense
+              make sense,
               <br/>
               UX/UI Designer based in Seattle  <img src="/img/rain.png" className="w-8 inline-block ms-2" />
             </span>
