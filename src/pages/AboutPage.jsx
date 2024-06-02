@@ -17,8 +17,7 @@ export default function AboutPage() {
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-relaxed lg-leading-[2rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
             Hello{" "}
-              <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
-              I’m Mafaza. {" "}
+            I’m Mafaza. {" "}  <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
        </span>
                        
                     <br />
