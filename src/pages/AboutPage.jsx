@@ -15,9 +15,6 @@ export default function AboutPage() {
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
-              <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
-              <br/>
-              <br/>
             Hello{" "}
             I’m Mafaza, {" "}  
        </span>
@@ -28,7 +25,7 @@ I'm a UX/UI designer based in Seattle.
                       <br/>
                       I enjoy discussing product-ideas 
         
-              and solving UX problem through design.  </span>    
+              and solving UX problem through design <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
      
           </div>
           </section>
