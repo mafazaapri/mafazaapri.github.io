@@ -22,11 +22,11 @@ export default function AboutPage() {
                        
                   
                     <span className="font-small">
-I'm Mafaza, UX/UI designer based in Seattle. 
-                      <br/>
+I'm Mafaza, UX/UI designer based <br/> in Seattle. 
+                      
                       I enjoy discussing product-ideas 
         
-              & solving UX problem through design  </span>    
+             <br/> & solving problem through design  </span>    
      
           </div>
           </section>
