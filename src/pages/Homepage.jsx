@@ -27,9 +27,9 @@ const Homepage = () => {
        
               make sense
               <br/>
-              UX/UI Designer based in Seattle
+              UX/UI Designer based in Seattle  <img src="/img/rain.png" className="w-8 inline-block ms-2" />
             </span>
-            <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
+           
           </div>
           <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
             <div className="text-start mb-5 lg:mb-0 lg:max-w-[28rem]">
