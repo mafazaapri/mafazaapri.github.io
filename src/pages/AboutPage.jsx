@@ -55,8 +55,9 @@ I'm Mafaza, UX/UI designer based <br/> in Seattle.
 I have a great love for alpacas          <img src="/img/alpaca.png" className="w-8 inline-block ms-2" />
           </section>
              </div>
+             <footer />;
     </div>
-     <footer />;
+ 
     </>
   );
 }
