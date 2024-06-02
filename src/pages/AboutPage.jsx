@@ -22,11 +22,11 @@ export default function AboutPage() {
             Hello{" "}, I'm Mafaza
               <br/>
        </span>
-                    <span className="font-small">
+             
  I enjoy discussing product-ideas 
         
              <br/>  <span className="font-neuton italic"> & solving problems through design </span> 
-                      <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
+                      <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />    
      
           </div>
           </section>
