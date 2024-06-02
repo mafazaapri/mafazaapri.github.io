@@ -3,6 +3,7 @@ import HeaderImage from "../components/HeaderImage";
 import PageMetadata from "../components/PageMetadata";
 import StylishHeaderTitle from "../components/StylishHeaderTitle";
 import Blob from "../assets/blob.svg?react";
+import Footer from "../components/Footer";
 
 export default function AboutPage() {
   return (
@@ -52,7 +53,7 @@ I have a great love for alpacas          <img src="/img/alpaca.png" className="w
           </section>
              </div>
     
-     
+     <footer/>
     </>
   );
 }
