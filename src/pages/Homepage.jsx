@@ -27,7 +27,7 @@ const Homepage = () => {
        
               make sense,
               <br/>
-              UX/UI Designer based in Seattle  <img src="/img/rain.png" className="w-9 inline-block ms-2" />
+              UX/UI Designer based in Seattle  <img src="/img/rain.png" className="w-10 inline-block ms-2" />
             </span>
            
           </div>
