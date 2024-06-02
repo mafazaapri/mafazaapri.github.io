@@ -19,16 +19,11 @@ export default function AboutPage() {
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-tight lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
-            Hello{" "},
+            Hello{" "}, I'm Mafaza
               <br/>
-       
        </span>
-                       
-                  
                     <span className="font-small">
-I'm Mafaza,  I enjoy discussing product-ideas  <br/>
-                      
-                 
+ I enjoy discussing product-ideas 
         
              <br/>  <span className="font-neuton italic"> & solving problem through design </span> <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
      
