@@ -10,14 +10,14 @@ import Blob from "../assets/blob.svg?react";
 export default function AboutPage() {
   return (
     <>
-       <div className="bg-[#000000]">
+      <div className="bg-home-bg bg-repeat">
       <PageMetadata title="About" desc="About me" />
 
        <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
          <div className="container">
         <section className="py-10">
             
-                  <div className="text-[2.5rem] font-color="#FFFFFF" lg:text-[4.25rem] text-start leading-tight lg-leading-[4rem] mr mt-16 lg:mt-40">
+                  <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-tight lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
             Hello{" "},
               <br/>
