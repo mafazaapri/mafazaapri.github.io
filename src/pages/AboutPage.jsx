@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 export default function AboutPage() {
   return (
     <>
+       <div className="bg-home-bg bg-repeat">
       <PageMetadata title="About" desc="About me" />
 
        <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
@@ -52,7 +53,7 @@ I'm Mafaza, UX/UI designer based <br/> in Seattle.
 I have a great love for alpacas          <img src="/img/alpaca.png" className="w-8 inline-block ms-2" />
           </section>
              </div>
-    
+    </div>
      <footer/>
     </>
   );
