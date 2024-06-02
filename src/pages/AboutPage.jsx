@@ -12,19 +12,21 @@ export default function AboutPage() {
        <Blob className="absolute z-10 hidden lg:block left-1/2 -translate-x-1/2" />
          <div className="container">
         <section className="py-10">
-      
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
               <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
               <br/>
+              <br/>
             Hello{" "}
-            I’m Mafaza. {" "}  
+            I’m Mafaza, {" "}  
        </span>
                        
                     <br />
                     <span className="font-small">
-I am a UX/UI designer based in Seattle. I enjoy discussing product-ideas 
+I'm a UX/UI designer based in Seattle. 
+                      <br/>
+                      I enjoy discussing product-ideas 
         
               and solving UX problem through design.  </span>    
      
