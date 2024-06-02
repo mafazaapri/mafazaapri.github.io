@@ -26,6 +26,8 @@ const Homepage = () => {
               visual that
        
               make sense
+              <br/>
+              UX/UI Designer based in Seattle
             </span>
             <img src="/img/sprinkles.png" className="w-8 inline-block ms-2" />
           </div>
