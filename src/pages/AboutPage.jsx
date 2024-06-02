@@ -22,11 +22,11 @@ export default function AboutPage() {
        </span>
                        
                     <br />
-                     <p className="max-w-[20.25rem]">
+                    <span className="font-small">
 I am a UX/UI designer based in Seattle. I enjoy discussing product-ideas 
         
               and solving UX problem through design. Currently I'm UX/UI Designer at  BeCurious Studio. I love working in a diverse environment. I believe that collaborating with people from different <br />
-             backgrounds will help me grow and excel in my career.  </p>        
+             backgrounds will help me grow and excel in my career.  </span>    
          </div>
           </div>
           </section>
