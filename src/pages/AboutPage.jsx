@@ -28,9 +28,9 @@ export default function AboutPage() {
                     <span className="font-small">
 I'm Mafaza, UX/UI designer based <br/> in Seattle. 
                       
-                      I enjoy discussing      <span className="font-neuton italic">product-ideas 
+                      I enjoy discussing product-ideas 
         
-             <br/> & solving problem through design </span> <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
+             <br/>  <span className="font-neuton italic"> & solving problem through design </span> <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
      
           </div>
           </section>
