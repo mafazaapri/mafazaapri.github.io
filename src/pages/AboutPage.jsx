@@ -14,7 +14,7 @@ export default function AboutPage() {
         <section className="py-10">
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-none lg-leading-[4rem] mr mt-16 lg:mt-40">
-            <span className="font-medium">
+            <span className="font-small">
             Hello{" "}  <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
               <br/>
        
