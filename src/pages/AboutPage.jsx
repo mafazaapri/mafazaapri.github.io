@@ -16,7 +16,7 @@ export default function AboutPage() {
             
                   <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-tight lg-leading-[4rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
-            Hello{" "}  <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
+            Hello{" "},
               <br/>
        
        </span>
@@ -27,7 +27,7 @@ I'm Mafaza, UX/UI designer based <br/> in Seattle.
                       
                       I enjoy discussing product-ideas 
         
-             <br/> & solving problem through design  </span>    
+             <br/> & solving problem through design <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" />   </span>    
      
           </div>
           </section>
