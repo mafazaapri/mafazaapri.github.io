@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import HeaderImage from "../components/HeaderImage";
 import PageMetadata from "../components/PageMetadata";
 import Footer from "../components/Footer";
