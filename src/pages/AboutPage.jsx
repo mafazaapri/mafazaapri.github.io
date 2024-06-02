@@ -20,13 +20,14 @@ export default function AboutPage() {
               <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
               <br />I’m Mafaza, you can call me Faza. {" "}
        </span>
+                       </div>
                     <br />
                      <p className="max-w-[31.25rem]">
 I am a UX/UI designer based in Seattle. I enjoy discussing product-ideas 
         
               and solving UX problem through design. Currently I'm UX/UI Designer at  BeCurious Studio. I love working in a diverse environment. I believe that collaborating with people from different <br />
              backgrounds will help me grow and excel in my career.  </p>        
-            </div>
+         
           </div>
           </section>
          
