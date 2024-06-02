@@ -36,13 +36,15 @@ I'm a UX/UI designer based in Seattle.
   little details
           </StylishHeaderTitle>
           <br/>
-           <p> Currently I'm a UX designer at BeCurious Studio.</p> <br/>
+            Currently I'm a UX designer at BeCurious Studio where I collaborate with PM, stakeholders, <br/> and team of designers to help clients achieve their goal <br/><br/>
          I love working in a diverse environment. I believe that collaborating with people from different <br />
              backgrounds will help me grow and excel in my career.   <img src="/img/plant.png" className="w-8 inline-block ms-2" /> 
+          <br/>
           <br/>
        My favorite mobile app is Digit. The app offers a seamless experience, with each element 
             <br/>
             thoughtfully designed to help users achieve their goals effortlessly    <img src="/img/iphone.png" className="w-8 inline-block ms-2" />
+          <br/>
           <br/>
  When I'm not working, I enjoy outdoor activities and visiting local farms around Washington. <br/>
 I have a great love for alpacas          <img src="/img/alpaca.png" className="w-8 inline-block ms-2" />
