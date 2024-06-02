@@ -27,7 +27,7 @@ export default function AboutPage() {
 I am a UX/UI designer based in Seattle. I enjoy discussing product-ideas 
         
               and solving UX problem through design.  </span>    
-         </div>
+     
           </div>
           </section>
          
