@@ -14,17 +14,16 @@ export default function AboutPage() {
         <section className="py-10">
        <div className="flex flex-col lg:flex-row justify-between mt-10 lg:mt-16">
             
-                  <div className="text-[2.5rem] lg:text-[4.25rem] text-start line-height: 1; lg-leading-[2rem] mr mt-16 lg:mt-40">
+                  <div className="text-[2.5rem] lg:text-[4.25rem] text-start leading-relaxed lg-leading-[2rem] mr mt-16 lg:mt-40">
             <span className="font-medium">
             Hello{" "}
               <img src="/img/profile-pic.png" className="w-16 inline-block ms-2" /> 
-              <br />I’m Mafaza, a multi-disciplinary designer based {" "}
-     
-              in Seattle. I love to to talk about product-ideas 
+              <br />I’m Mafaza, you can call me Faza. {" "}
+       </span>
+<p> I am a UX/UI designer based in Seattle. I enjoy discussing product-ideas 
         
-              and solving UX problem. Currently UX/UI Designer at  BeCurious Studio.
-              </span>
-              
+              and solving UX problem through design. Currently I'm UX/UI Designer at  BeCurious Studio. I love working in a diverse environment. I believe that collaborating with people from different <br />
+             backgrounds will help me grow and excel in my career.  </p>        
             </div>
           </div>
           </section>
