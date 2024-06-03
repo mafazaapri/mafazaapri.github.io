@@ -37,7 +37,7 @@ export default function AboutPage() {
   little details
           </StylishHeaderTitle>
           <br/>
-            Currently I'm a UX designer at  <span className="font-neuton italic"> <a href="https://www.becurious.co/"><u>Becurious Studio</u></a> </span> where I collaborate with PM, stakeholders, <br/> and team of designers to help clients achieve their goal <img src="/img/sprinkle.png" className="w-8 inline-block ms-2" /> <br/><br/>
+            Currently I'm a UX designer at <a href="https://www.becurious.co/"><u>Becurious Studio</u></a> where I collaborate with PM, stakeholders, <br/> and team of designers to help clients achieve their goal <img src="/img/sprinkle.png" className="w-8 inline-block ms-2" /> <br/><br/>
          I love working in a diverse environment. I believe that collaborating with people from different <br />
              backgrounds will help me grow and excel in my career.   <img src="/img/plant.png" className="w-8 inline-block ms-2" /> 
           <br/>
