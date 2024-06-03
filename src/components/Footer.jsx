@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="pt-7 pb-16">
           <Logo isLight={true} className="mr-auto" />
 
-          <hr className="bg-[#CFCFCF] mb-8 mt-6"></hr>
+          <hr className="bg-[#CFCFCF]"></hr>
           <div className="flex flex-col lg:flex-row justify-between">
             <div className="mb-14 lg:mb-0">
               <div className="uppercase text-4xl lg:text-[4.6875rem] text-start font-medium leading-none text-white mb-8">
