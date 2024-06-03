@@ -51,6 +51,8 @@ export default function AboutPage() {
 I have a great love for alpacas          <img src="/img/alpaca.png" className="w-8 inline-block ms-2" />
           </section>
              </div>
+        <br/>
+        <br/>
       <Footer />
     </div>
 
